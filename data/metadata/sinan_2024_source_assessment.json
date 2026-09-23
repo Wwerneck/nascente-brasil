@@ -1,0 +1,43 @@
+{
+  "phase": 10,
+  "status": "evaluated_not_integrated",
+  "period": "2024",
+  "source_status": "preliminary",
+  "source": "https://www.gov.br/saude/pt-br/acesso-a-informacao/sic/dados-em-transparencia-ativa/svsa/agravos-de-notificacoes",
+  "files": {
+    "SIFGBR24.dbc": {
+      "sha256": "1bc199e9b20db9e80d36e730318b77479bd636ebacb6fb34a3cf88947ff0ab3d",
+      "bytes": 2607178
+    },
+    "Docs_TAB_SINAN.zip": {
+      "sha256": "037e5d59597cb400c4b06c5d7a94b1d2f1daf9b59228120709816e547471a81a",
+      "bytes": 65650628
+    }
+  },
+  "layout": {
+    "records": 89934,
+    "fields": 32,
+    "record_length": 176,
+    "schema_version": "dbf-fields-sha256:6f68fac5ae0245f1f01d902ef0c25ad0bae974e376adea550f4f8afb1560c7d4"
+  },
+  "audit": {
+    "rows": 89934,
+    "agravo": {
+      "O981": 89934
+    },
+    "year": {
+      "2024": 89934
+    },
+    "sex": {
+      "F": 89934
+    },
+    "final_classification": {
+      "": 89934
+    },
+    "invalid_date_encoding": {
+      "DTTESTE1": 18747
+    },
+    "unmatched_residence": 5
+  },
+  "decision": "No confirmed-case or cross-source indicator is published because CLASSI_FIN is blank for all records and the available file is preliminary. Notifications are not equivalent to unique pregnancies or confirmed cases."
+}

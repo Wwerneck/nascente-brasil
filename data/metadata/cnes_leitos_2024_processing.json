@@ -1,0 +1,254 @@
+{
+  "pipeline_version": "phase6-v2",
+  "processed_at": "2026-09-21T14:52:22.222416+00:00",
+  "reference_period": "2024",
+  "inputs": {
+    "cnes_sha256": "72a73c4b2b18a8d62170a82b8b04a84e646b41129f765bc45b3ed8f9afac3409",
+    "dictionary_sha256": "93343ca76e3a9466b83da38bed29206449e3461dd12852559d5584bbd67c2e96",
+    "sinasc_sha256": "4222c57d4d69422faa7e838bc0031f90422731ff1cee336dfc72abd5b603c8f4",
+    "ibge_dimension_sha256": "8fb8b4cb8c68dba4f40d03ba1f37fabcef422eaa4d51c160749f50a3e45ee31a",
+    "sql_sha256": "7b3de0e5d20f5a3fd8c873dc40c87c2380487c2f2d4a54a465c3fba572b709ce"
+  },
+  "source_rows": 85225,
+  "competencies": [
+    "202401",
+    "202402",
+    "202403",
+    "202404",
+    "202405",
+    "202406",
+    "202407",
+    "202408",
+    "202409",
+    "202410",
+    "202411",
+    "202412"
+  ],
+  "distinct_cnes": 7284,
+  "dimension_rows": 7284,
+  "fact_rows": 85225,
+  "quality": {
+    "invalid_numeric": {
+      "leitos_existentes": 0,
+      "leitos_sus": 0,
+      "uti_total_existentes": 0,
+      "uti_total_sus": 0,
+      "uti_adulto_existentes": 0,
+      "uti_adulto_sus": 0,
+      "uti_pediatrica_existentes": 0,
+      "uti_pediatrica_sus": 0,
+      "uti_neonatal_existentes": 0,
+      "uti_neonatal_sus": 0,
+      "uti_queimados_existentes": 0,
+      "uti_queimados_sus": 0,
+      "uti_coronariana_existentes": 0,
+      "uti_coronariana_sus": 0
+    },
+    "negative_values": 0,
+    "uti_total_existing_component_mismatch": 0,
+    "uti_total_sus_component_mismatch": 0,
+    "leitos_sus_above_existing": 0,
+    "uti_sus_above_existing": 0,
+    "missing": {
+      "competencia": 0,
+      "regiao_fonte": 0,
+      "uf": 0,
+      "municipio_fonte": 0,
+      "motivo_desabilitacao": 85225,
+      "codigo_cnes": 0,
+      "nome_estabelecimento": 0,
+      "razao_social": 0,
+      "tipo_gestao": 0,
+      "codigo_tipo_unidade": 0,
+      "tipo_unidade": 0,
+      "codigo_natureza_juridica": 0,
+      "natureza_juridica": 0,
+      "logradouro": 0,
+      "numero_endereco": 0,
+      "complemento": 69295,
+      "bairro": 0,
+      "cep": 0,
+      "telefone": 9822,
+      "email": 28347,
+      "leitos_existentes": 0,
+      "leitos_sus": 0,
+      "uti_total_existentes": 0,
+      "uti_total_sus": 0,
+      "uti_adulto_existentes": 0,
+      "uti_adulto_sus": 0,
+      "uti_pediatrica_existentes": 0,
+      "uti_pediatrica_sus": 0,
+      "uti_neonatal_existentes": 0,
+      "uti_neonatal_sus": 0,
+      "uti_queimados_existentes": 0,
+      "uti_queimados_sus": 0,
+      "uti_coronariana_existentes": 0,
+      "uti_coronariana_sus": 0
+    }
+  },
+  "territory_join": {
+    "left_rows": 85225,
+    "right_rows": 5571,
+    "matched_rows": 85225,
+    "unmatched_left": 0,
+    "duplicated_keys": 0,
+    "match_rate_pct": 100.0,
+    "alias_rows": 252,
+    "aliases": [
+      {
+        "uf": "BA",
+        "source_name": "SANTA TERESINHA",
+        "ibge_name": "SANTA TEREZINHA"
+      },
+      {
+        "uf": "CE",
+        "source_name": "ITAPAGE",
+        "ibge_name": "ITAPAJE"
+      },
+      {
+        "uf": "MG",
+        "source_name": "BRASOPOLIS",
+        "ibge_name": "BRAZOPOLIS"
+      },
+      {
+        "uf": "MT",
+        "source_name": "POXOREO",
+        "ibge_name": "POXOREU"
+      },
+      {
+        "uf": "MT",
+        "source_name": "SANTO ANTONIO DO LEVERGER",
+        "ibge_name": "SANTO ANTONIO DE LEVERGER"
+      },
+      {
+        "uf": "PA",
+        "source_name": "ELDORADO DOS CARAJAS",
+        "ibge_name": "ELDORADO DO CARAJAS"
+      },
+      {
+        "uf": "PB",
+        "source_name": "SERIDO",
+        "ibge_name": "SAO VICENTE DO SERIDO"
+      },
+      {
+        "uf": "PE",
+        "source_name": "BELEM DE SAO FRANCISCO",
+        "ibge_name": "BELEM DO SAO FRANCISCO"
+      },
+      {
+        "uf": "PE",
+        "source_name": "IGUARACI",
+        "ibge_name": "IGUARACY"
+      },
+      {
+        "uf": "PE",
+        "source_name": "LAGOA DO ITAENGA",
+        "ibge_name": "LAGOA DE ITAENGA"
+      },
+      {
+        "uf": "RJ",
+        "source_name": "PARATI",
+        "ibge_name": "PARATY"
+      },
+      {
+        "uf": "RJ",
+        "source_name": "TRAJANO DE MORAIS",
+        "ibge_name": "TRAJANO DE MORAES"
+      },
+      {
+        "uf": "RN",
+        "source_name": "AUGUSTO SEVERO",
+        "ibge_name": "CAMPO GRANDE"
+      },
+      {
+        "uf": "RN",
+        "source_name": "PRESIDENTE JUSCELINO",
+        "ibge_name": "SERRA CAIADA"
+      },
+      {
+        "uf": "RS",
+        "source_name": "SANTANA DO LIVRAMENTO",
+        "ibge_name": "SANT ANA DO LIVRAMENTO"
+      },
+      {
+        "uf": "SP",
+        "source_name": "MOJI MIRIM",
+        "ibge_name": "MOGI MIRIM"
+      },
+      {
+        "uf": "SP",
+        "source_name": "SAO LUIS DO PARAITINGA",
+        "ibge_name": "SAO LUIZ DO PARAITINGA"
+      }
+    ],
+    "unmatched_locations": []
+  },
+  "sinasc_cnes_join": [
+    {
+      "match_status": "matched_same_competence",
+      "registros": 2327259
+    },
+    {
+      "match_status": "not_in_hospital_beds_2024",
+      "registros": 35698
+    },
+    {
+      "match_status": "missing_cnes_code",
+      "registros": 22772
+    },
+    {
+      "match_status": "cnes_seen_other_competence",
+      "registros": 3596
+    }
+  ],
+  "outputs": {
+    "raw_csv": {
+      "path": "data/raw/cnes/csv/leitos_2024_utf8.csv",
+      "rows": 85225,
+      "bytes": 22149306,
+      "sha256": "5b6a215f5e8de8a6ca0fc68616aed64d6dd690221cd314f5b746fcfd38acb4d6"
+    },
+    "silver_csv": {
+      "path": "data/processed/cnes/cnes_leitos_2024_silver.csv",
+      "rows": 85225,
+      "bytes": 27950404,
+      "sha256": "41ce301ff987f03a9670121c65df89f39127372fdc002dc6dbcafabbf4807d3a"
+    },
+    "silver_parquet": {
+      "path": "data/processed/cnes/cnes_leitos_2024_silver.parquet",
+      "rows": 85225,
+      "bytes": 2758070,
+      "sha256": "b3d348df0a448d04dbc771246068b0377b96dd60f5941040d03128c291d17d9c"
+    },
+    "dim_estabelecimento": {
+      "path": "data/reference/cnes/dim_estabelecimento_2024.csv",
+      "rows": 7284,
+      "bytes": 1628252,
+      "sha256": "191a07ad9fe9806b58702cc9c003a42bf085e15d519ad9c9dc05602f755f0d64"
+    },
+    "fact_capacidade_csv": {
+      "path": "data/processed/cnes/fact_capacidade_hospitalar_2024.csv",
+      "rows": 85225,
+      "bytes": 6645760,
+      "sha256": "676e25553e344450a1cbcb5745cc290b98d03a797ae12329b0ef9ff3bb6d7e56"
+    },
+    "fact_capacidade_parquet": {
+      "path": "data/processed/cnes/fact_capacidade_hospitalar_2024.parquet",
+      "rows": 85225,
+      "bytes": 684337,
+      "sha256": "00f4a78157c555868585330e0e7962a58798ebedcaba8f366a91da4c74b61314"
+    },
+    "territory_audit": {
+      "path": "data/processed/cnes/cnes_2024_territory_audit.csv",
+      "rows": 3556,
+      "bytes": 393930,
+      "sha256": "59aea2ad982f81c3be7a85eb3c63dd35478e2c89890253e7b6b6ceb5d04b0aea"
+    },
+    "sinasc_cnes_audit": {
+      "path": "data/processed/cnes/sinasc_2024_cnes_temporal_audit.csv",
+      "rows": 4,
+      "bytes": 143,
+      "sha256": "2aec4c2c26caa94435e68347257d4711fa8ca527b33ede21f6b06bf4870e2ce1"
+    }
+  }
+}

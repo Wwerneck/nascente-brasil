@@ -1,0 +1,155 @@
+{
+  "pipeline_version": "phase5-v1",
+  "processed_at": "2026-09-21T00:36:54.450088+00:00",
+  "reference_period": "2024",
+  "inputs": {
+    "dtb_sha256": "218d2017cc29ff21cb6e8a0b015c40ea8f456900f95aa18f534be4ea94b473f0",
+    "uf_sha256": "7ca1368dea3af83cba1af84ae8a7e88f1173c97586831d086cc8b3c1ba9c6596",
+    "silver_sha256": "4222c57d4d69422faa7e838bc0031f90422731ff1cee336dfc72abd5b603c8f4",
+    "sql_sha256": "b35176c1673a4a95361f723cf4f14697d6489214a7e0bf919378ebd7c96a6bd3"
+  },
+  "dimension_rows": {
+    "regiao": 5,
+    "estado": 27,
+    "municipio": 5571
+  },
+  "sinasc_rows": 2389325,
+  "territory_code_groups": 9412,
+  "join_metrics": {
+    "residencia": {
+      "left_rows": 2389325,
+      "right_rows": 5571,
+      "matched_rows": 2389271,
+      "unmatched_left": 54,
+      "unmatched_right": 1,
+      "duplicated_keys": 0,
+      "match_rate_pct": 99.9977,
+      "unmatched_by_reason": {
+        "municipality_not_in_dtb": 54
+      },
+      "top_unmatched_codes": [
+        {
+          "codigo_sinasc": "330000",
+          "registros": 22,
+          "reason": "municipality_not_in_dtb"
+        },
+        {
+          "codigo_sinasc": "130000",
+          "registros": 9,
+          "reason": "municipality_not_in_dtb"
+        },
+        {
+          "codigo_sinasc": "520000",
+          "registros": 5,
+          "reason": "municipality_not_in_dtb"
+        },
+        {
+          "codigo_sinasc": "350000",
+          "registros": 4,
+          "reason": "municipality_not_in_dtb"
+        },
+        {
+          "codigo_sinasc": "260000",
+          "registros": 3,
+          "reason": "municipality_not_in_dtb"
+        },
+        {
+          "codigo_sinasc": "320000",
+          "registros": 3,
+          "reason": "municipality_not_in_dtb"
+        },
+        {
+          "codigo_sinasc": "290000",
+          "registros": 2,
+          "reason": "municipality_not_in_dtb"
+        },
+        {
+          "codigo_sinasc": "140000",
+          "registros": 1,
+          "reason": "municipality_not_in_dtb"
+        },
+        {
+          "codigo_sinasc": "220000",
+          "registros": 1,
+          "reason": "municipality_not_in_dtb"
+        },
+        {
+          "codigo_sinasc": "270000",
+          "registros": 1,
+          "reason": "municipality_not_in_dtb"
+        },
+        {
+          "codigo_sinasc": "310000",
+          "registros": 1,
+          "reason": "municipality_not_in_dtb"
+        },
+        {
+          "codigo_sinasc": "410000",
+          "registros": 1,
+          "reason": "municipality_not_in_dtb"
+        },
+        {
+          "codigo_sinasc": "420000",
+          "registros": 1,
+          "reason": "municipality_not_in_dtb"
+        }
+      ]
+    },
+    "ocorrencia": {
+      "left_rows": 2389325,
+      "right_rows": 5571,
+      "matched_rows": 2389323,
+      "unmatched_left": 2,
+      "unmatched_right": 1744,
+      "duplicated_keys": 0,
+      "match_rate_pct": 99.9999,
+      "unmatched_by_reason": {
+        "municipality_not_in_dtb": 2
+      },
+      "top_unmatched_codes": [
+        {
+          "codigo_sinasc": "260000",
+          "registros": 1,
+          "reason": "municipality_not_in_dtb"
+        },
+        {
+          "codigo_sinasc": "420000",
+          "registros": 1,
+          "reason": "municipality_not_in_dtb"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "dtb_municipios_csv": {
+      "path": "data/raw/ibge/csv/dtb_2024_municipios.csv",
+      "bytes": 446351,
+      "sha256": "45f37c9e70cfa2617561da2fceca7f4ed6c337a847e8d7a9032c6ed1c2e7d39d"
+    },
+    "ibge_ufs_csv": {
+      "path": "data/raw/ibge/csv/ibge_estados_api.csv",
+      "bytes": 797,
+      "sha256": "0dee23ad052cd19b22ef71ff1cbe70b4920ac5676f1cdc0e750d421aa01f0743"
+    },
+    "dim_regiao": {
+      "path": "data/reference/ibge/dim_regiao_2024.csv",
+      "bytes": 77,
+      "sha256": "0ead00d7c4bf2176548b4b0f5b1907160db309b7290e65d63fe823f55dc861c1"
+    },
+    "dim_estado": {
+      "path": "data/reference/ibge/dim_estado_2024.csv",
+      "bytes": 797,
+      "sha256": "0dee23ad052cd19b22ef71ff1cbe70b4920ac5676f1cdc0e750d421aa01f0743"
+    },
+    "dim_municipio": {
+      "path": "data/reference/ibge/dim_municipio_2024.csv",
+      "bytes": 312235,
+      "sha256": "8fb8b4cb8c68dba4f40d03ba1f37fabcef422eaa4d51c160749f50a3e45ee31a"
+    },
+    "territory_join": {
+      "path": "data/processed/sinasc/analytics/sinasc_2024_territory_join.csv",
+      "bytes": 792184,
+      "sha256": "6cdb0da3bfafa24c8830687c047ced02a03ade32071f4e1f234a3667cb871301"
+    }
+  }
+}

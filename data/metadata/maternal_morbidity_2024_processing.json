@@ -1,0 +1,82 @@
+{
+  "pipeline_version": "phase8-v1",
+  "processed_at": "2026-09-22T13:21:23.033975+00:00",
+  "reference_period": "2024",
+  "inputs": {
+    "phase7_report": "f7e6e88640e0f6b6f39b6f21f61cded0ee5d2ae64c351239d4daf04514a61b9d",
+    "municipality": "8fb8b4cb8c68dba4f40d03ba1f37fabcef422eaa4d51c160749f50a3e45ee31a",
+    "classification_code": "00e1f00865c17efb9bd3ffc7b6da5f576f2988f6fa10e78a343e27964e467438",
+    "pipeline_code": "2df9ad0d326ac9ad272b99c1d5747ad90ea8bec63a65206226e2f74d4240418e",
+    "CID10.DBF": "5c755bcdabc5396cfa1eff2aa3f6189aa7256b01eb10ce6ca890be0dda4dd717",
+    "CIDCAP10.DBF": "8dea0a2454b775123c92bfa6eef0c4b0a0a9a4656a7d84ae8f7528bf38555684"
+  },
+  "cid_reference": {
+    "path": "data/reference/cid/cid_materno.csv",
+    "rows": 502,
+    "bytes": 77707,
+    "sha256": "e58c3e66df14b233976d53f7794781800906df354e73a54b72f8540f0fc88342"
+  },
+  "cid_groups": 14,
+  "audit": {
+    "sih_rows": 14171364,
+    "obstetric_type1_all_sex": 2115667,
+    "eligible_type1_sex3": 2113927,
+    "obstetric_type5": 0,
+    "excluded_other_sex": 1740,
+    "morbidity_rows": 873345,
+    "other_obstetric_rows": 1240582,
+    "repeated_aih_keys": 0
+  },
+  "fact": {
+    "path": "data/processed/morbidades_maternas/fact_morbidades_maternas_2024.parquet",
+    "rows": 573131,
+    "bytes": 6051800,
+    "sha256": "2bdd88c63b998ae83ca3d22fb9ce5fb3fd6065706115b2883a8d368724c25b5a"
+  },
+  "fact_competencies": 12,
+  "fact_municipalities": 5570,
+  "gold": {
+    "brasil": {
+      "path": "data/gold/morbidades/morbidades_brasil.csv",
+      "rows": 240,
+      "bytes": 24099,
+      "sha256": "3102f4679cb5890f2aea37224a1b3f99b7b023f9e0a20cdb2989cafc4180457c"
+    },
+    "regiao": {
+      "path": "data/gold/morbidades/morbidades_regiao.csv",
+      "rows": 1177,
+      "bytes": 113662,
+      "sha256": "f4b219052e4afc7b2caf164cb457ec50899fe2a0f3e031a15b18566c78daf377"
+    },
+    "estado": {
+      "path": "data/gold/morbidades/morbidades_estado.csv",
+      "rows": 5895,
+      "bytes": 572628,
+      "sha256": "04632ac5133310ad24018f5e9e047cba99237af4e2c7dd657f918683113dd2eb"
+    },
+    "municipio": {
+      "path": "data/gold/morbidades/morbidades_municipio.csv",
+      "rows": 218479,
+      "bytes": 21536088,
+      "sha256": "be4fc6ae28c6586205c5350859899c34e5c427851268277a33a43ef54bfa15b4"
+    }
+  },
+  "denominator_coverage": {
+    "brasil": {
+      "denominator_covered": 2113927,
+      "denominator_without_morbidity_row": 0
+    },
+    "regiao": {
+      "denominator_covered": 2113927,
+      "denominator_without_morbidity_row": 0
+    },
+    "estado": {
+      "denominator_covered": 2113927,
+      "denominator_without_morbidity_row": 0
+    },
+    "municipio": {
+      "denominator_covered": 2090092,
+      "denominator_without_morbidity_row": 23835
+    }
+  }
+}

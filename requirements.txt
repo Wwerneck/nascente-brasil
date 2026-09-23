@@ -1,0 +1,4 @@
+-e .[api,dashboard]
+pytest>=8.2,<10
+dbt-core>=1.11,<2
+dbt-postgres>=1.11,<2

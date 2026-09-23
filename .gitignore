@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Environment
+.env
+
+# Logs
+logs/**
+debug.log
+
+# Local databases and generated artifacts
+*.duckdb
+*.db
+*.sqlite
+
+# Data policy: raw/processed/gold datasets are rebuilt locally.
+data/raw/**
+data/processed/**
+data/gold/**
+data/quarantine/**
+data/postgres/**
+
+# Keep auditable metadata and small reference files versionable.
+!data/metadata/
+!data/metadata/**
+!data/reference/
+!data/reference/**
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# dbt generated artifacts
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+dbt/.user.yml

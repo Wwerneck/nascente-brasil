@@ -1,0 +1,65 @@
+{
+  "pipeline_version": "phase4-v1",
+  "created_at": "2026-09-20T19:10:04.475465+00:00",
+  "phase3_report": "data/metadata/sinasc_2024_27e55de6359e_processing.json",
+  "source_parquet_sha256": "4222c57d4d69422faa7e838bc0031f90422731ff1cee336dfc72abd5b603c8f4",
+  "source_csv_sha256": "eb106e1b0f3e6a0a4414d75631263bfe7168e0b9154a38f50634352471ffd7c5",
+  "sql_sha256": {
+    "national": "4196a4a2c2286f2120a5f4862dc1e6d4732e2c08d38899a298efcc4dee25ea38",
+    "monthly": "7adb52c24ff71b6fa9cb8f0258ebb60441750fae5e9c3657eead3b0b994055e8",
+    "sex": "1254c0e6e17cef3a085f05b18ad623b36cc5361667e300991fcf34af8943cda9"
+  },
+  "sample_size": 1000,
+  "national": {
+    "nascidos_vivos": 2389325,
+    "partos_tipo_conhecido": 2388152,
+    "partos_cesareos": 1447691,
+    "pct_cesareos": 60.62,
+    "peso_valido": 2388972,
+    "baixo_peso": 226243,
+    "pct_baixo_peso": 9.47,
+    "gestacao_valida": 2371203,
+    "prematuros": 293833,
+    "pct_prematuros": 12.39,
+    "prenatal_valido": 2352037,
+    "prenatal_7_mais": 1880935,
+    "pct_prenatal_7_mais": 79.97
+  },
+  "monthly_groups": 12,
+  "sex_groups": 3,
+  "reconciliation": {
+    "silver_csv_rows": 2389325,
+    "sample_rows": 1000,
+    "sample_counts": {
+      "nascidos_vivos": 1000,
+      "partos_tipo_conhecido": 1000,
+      "partos_cesareos": 744,
+      "peso_valido": 1000,
+      "baixo_peso": 47,
+      "gestacao_valida": 998,
+      "prematuros": 90,
+      "prenatal_valido": 999,
+      "prenatal_7_mais": 868
+    },
+    "monthly_matches": true,
+    "sex_matches": true,
+    "sample_matches": true
+  },
+  "outputs": {
+    "national": {
+      "path": "data/processed/sinasc/analytics/sinasc_2024_27e55de6359e_national.csv",
+      "bytes": 293,
+      "sha256": "f8f51595b1ebf806656d22217e621113f0e8374023ee26244cd1c58c08b6c1d0"
+    },
+    "monthly": {
+      "path": "data/processed/sinasc/analytics/sinasc_2024_27e55de6359e_monthly.csv",
+      "bytes": 1016,
+      "sha256": "6555ec5a33bae5a920cbc0b47b29cc78b18d30d8da4ce7516bf638d9f3c300f4"
+    },
+    "sex": {
+      "path": "data/processed/sinasc/analytics/sinasc_2024_27e55de6359e_sex.csv",
+      "bytes": 50,
+      "sha256": "94733955898d6781a087cd569a172ad95c70d345e7aa8621fd1410694bd9f538"
+    }
+  }
+}

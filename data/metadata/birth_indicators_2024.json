@@ -1,0 +1,36 @@
+{
+  "version": "birth-indicators-v1",
+  "built_at": "2026-09-23T23:10:24.712490+00:00",
+  "inputs": {
+    "sinasc_silver": "4222c57d4d69422faa7e838bc0031f90422731ff1cee336dfc72abd5b603c8f4",
+    "municipality": "8fb8b4cb8c68dba4f40d03ba1f37fabcef422eaa4d51c160749f50a3e45ee31a"
+  },
+  "outputs": {
+    "brasil": {
+      "path": "data/gold/nascimentos/nascimentos_brasil.csv",
+      "rows": 1,
+      "sha256": "20db7741720d6fe8e920817a03552105b7ab8310bc0173d55d0a2b3c290d344c",
+      "bytes": 748
+    },
+    "regiao": {
+      "path": "data/gold/nascimentos/nascimentos_regiao.csv",
+      "rows": 5,
+      "sha256": "5384e35f263f68c6eeb0ad67b7e68ebf6548de44f477cd98c3630ba97f635a1b",
+      "bytes": 1424
+    },
+    "estado": {
+      "path": "data/gold/nascimentos/nascimentos_estado.csv",
+      "rows": 27,
+      "sha256": "4a1db191d024f3887dc25f7c80887bde32581432c4a405d529473c0eb126e99a",
+      "bytes": 4978
+    },
+    "municipio": {
+      "path": "data/gold/nascimentos/nascimentos_municipio.csv",
+      "rows": 5570,
+      "sha256": "3f03bb2fbb859fab035b76c2c02928fb5e8ebed131d5eba1938d511e2e8abd83",
+      "bytes": 692313
+    }
+  },
+  "national_births": 2389325,
+  "unmatched_residence": 54
+}

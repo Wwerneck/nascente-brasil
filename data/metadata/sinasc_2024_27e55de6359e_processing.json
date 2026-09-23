@@ -1,0 +1,86 @@
+{
+  "source": "https://dadosabertos.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc/resource/61145247-d2bb-463a-befc-01dd5a86ff34",
+  "pipeline_version": "phase3-v3",
+  "raw_zip": "data/raw/sinasc/original/SINASC_2024_csv_27e55de6359e.zip",
+  "raw_sha256": "27e55de6359e1b1914301dc1d752d78e9535a7a52cc0640931dd94876aca6027",
+  "reference_period": "2024",
+  "processed_at": "2026-09-20T15:47:59.944807+00:00",
+  "rows": 2389325,
+  "raw_csv": {
+    "path": "data/raw/sinasc/csv/sinasc_2024_27e55de6359e.csv",
+    "rows": 2389325,
+    "bytes": 559423769,
+    "sha256": "f03bdf49605e4388233b32528365e2d2ad6175ef34f98f3c1a50a4fb597ccd9b"
+  },
+  "silver": {
+    "rows": 2389325,
+    "csv": {
+      "path": "data/processed/sinasc/sinasc_2024_27e55de6359e_silver.csv",
+      "bytes": 559174644,
+      "sha256": "eb106e1b0f3e6a0a4414d75631263bfe7168e0b9154a38f50634352471ffd7c5"
+    },
+    "parquet": {
+      "path": "data/processed/sinasc/sinasc_2024_27e55de6359e_silver.parquet",
+      "bytes": 58921500,
+      "sha256": "4222c57d4d69422faa7e838bc0031f90422731ff1cee336dfc72abd5b603c8f4"
+    },
+    "quality": {
+      "missing": {
+        "idade_mae": 32,
+        "semanas_gestacao": 17830,
+        "consultas_prenatal_numero": 37265,
+        "peso_nascimento_g": 221,
+        "apgar_1min": 25667,
+        "apgar_5min": 25082,
+        "data_nascimento": 0,
+        "tipo_parto": 1132,
+        "sexo": 0,
+        "tipo_gravidez": 1244,
+        "codigo_municipio_nascimento": 0,
+        "codigo_municipio_residencia": 0
+      },
+      "invalid_numeric": {
+        "idade_mae": 0,
+        "semanas_gestacao": 0,
+        "consultas_prenatal_numero": 0,
+        "peso_nascimento_g": 0,
+        "apgar_1min": 0,
+        "apgar_5min": 0
+      },
+      "invalid_date": {
+        "data_nascimento": 0
+      },
+      "sentinel_to_null": {
+        "idade_mae": 11,
+        "semanas_gestacao": 0,
+        "consultas_prenatal_numero": 6749,
+        "peso_nascimento_g": 0,
+        "apgar_1min": 1962,
+        "apgar_5min": 1459
+      },
+      "out_of_range_retained": {
+        "idade_mae": 3,
+        "semanas_gestacao": 292,
+        "consultas_prenatal_numero": 23,
+        "peso_nascimento_g": 132,
+        "apgar_1min": 0,
+        "apgar_5min": 0,
+        "data_nascimento_year": 0
+      },
+      "unexpected_category_retained": {
+        "tipo_parto": 0,
+        "sexo": 0,
+        "tipo_gravidez": 0
+      },
+      "unknown_category_retained": {
+        "tipo_parto": 41,
+        "sexo": 366,
+        "tipo_gravidez": 61
+      },
+      "invalid_municipality_code_retained": {
+        "codigo_municipio_nascimento": 0,
+        "codigo_municipio_residencia": 0
+      }
+    }
+  }
+}

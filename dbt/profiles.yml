@@ -1,0 +1,13 @@
+nascente_brasil:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: "{{ env_var('NASCENTE_POSTGRES_HOST', '127.0.0.1') }}"
+      port: "{{ env_var('NASCENTE_POSTGRES_PORT', '55432') | int }}"
+      user: "{{ env_var('NASCENTE_POSTGRES_USER', 'nascente') }}"
+      password: "{{ env_var('NASCENTE_POSTGRES_PASSWORD', '') }}"
+      dbname: "{{ env_var('NASCENTE_POSTGRES_DATABASE', 'nascente_brasil') }}"
+      schema: dbt
+      threads: 4
+      connect_timeout: 10

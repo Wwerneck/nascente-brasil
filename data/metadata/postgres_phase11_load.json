@@ -1,0 +1,111 @@
+{
+  "phase": 11,
+  "loaded_at": "2026-09-23T23:10:26.493328+00:00",
+  "database": "nascente_brasil",
+  "schemas": [
+    "raw",
+    "staging",
+    "intermediate",
+    "analytics",
+    "metadata"
+  ],
+  "inputs": [
+    {
+      "path": "data/reference/ibge/dim_municipio_2024.csv",
+      "table": "analytics.dim_municipio",
+      "level": null,
+      "rows": 5571,
+      "sha256": "8fb8b4cb8c68dba4f40d03ba1f37fabcef422eaa4d51c160749f50a3e45ee31a"
+    },
+    {
+      "path": "data/gold/nascimentos/nascimentos_brasil.csv",
+      "table": "analytics.nascimentos",
+      "level": "brasil",
+      "rows": 1,
+      "sha256": "20db7741720d6fe8e920817a03552105b7ab8310bc0173d55d0a2b3c290d344c"
+    },
+    {
+      "path": "data/gold/nascimentos/nascimentos_regiao.csv",
+      "table": "analytics.nascimentos",
+      "level": "regiao",
+      "rows": 5,
+      "sha256": "5384e35f263f68c6eeb0ad67b7e68ebf6548de44f477cd98c3630ba97f635a1b"
+    },
+    {
+      "path": "data/gold/nascimentos/nascimentos_estado.csv",
+      "table": "analytics.nascimentos",
+      "level": "estado",
+      "rows": 27,
+      "sha256": "4a1db191d024f3887dc25f7c80887bde32581432c4a405d529473c0eb126e99a"
+    },
+    {
+      "path": "data/gold/nascimentos/nascimentos_municipio.csv",
+      "table": "analytics.nascimentos",
+      "level": "municipio",
+      "rows": 5570,
+      "sha256": "3f03bb2fbb859fab035b76c2c02928fb5e8ebed131d5eba1938d511e2e8abd83"
+    },
+    {
+      "path": "data/gold/morbidades/morbidades_brasil.csv",
+      "table": "analytics.morbidades",
+      "level": "brasil",
+      "rows": 240,
+      "sha256": "3102f4679cb5890f2aea37224a1b3f99b7b023f9e0a20cdb2989cafc4180457c"
+    },
+    {
+      "path": "data/gold/morbidades/morbidades_regiao.csv",
+      "table": "analytics.morbidades",
+      "level": "regiao",
+      "rows": 1177,
+      "sha256": "f4b219052e4afc7b2caf164cb457ec50899fe2a0f3e031a15b18566c78daf377"
+    },
+    {
+      "path": "data/gold/morbidades/morbidades_estado.csv",
+      "table": "analytics.morbidades",
+      "level": "estado",
+      "rows": 5895,
+      "sha256": "04632ac5133310ad24018f5e9e047cba99237af4e2c7dd657f918683113dd2eb"
+    },
+    {
+      "path": "data/gold/morbidades/morbidades_municipio.csv",
+      "table": "analytics.morbidades",
+      "level": "municipio",
+      "rows": 218479,
+      "sha256": "be4fc6ae28c6586205c5350859899c34e5c427851268277a33a43ef54bfa15b4"
+    },
+    {
+      "path": "data/gold/mortalidade/mortalidade_brasil.csv",
+      "table": "analytics.mortalidade",
+      "level": "brasil",
+      "rows": 1,
+      "sha256": "65c808cc0bc08ed2585cbe28db9718330b01253efd63436246e86f76b354a689"
+    },
+    {
+      "path": "data/gold/mortalidade/mortalidade_regiao.csv",
+      "table": "analytics.mortalidade",
+      "level": "regiao",
+      "rows": 5,
+      "sha256": "c859dfcf71ddbdcc515a5c1127e5e084cd14128bde8cb80b83df34483c563663"
+    },
+    {
+      "path": "data/gold/mortalidade/mortalidade_estado.csv",
+      "table": "analytics.mortalidade",
+      "level": "estado",
+      "rows": 27,
+      "sha256": "05d9ca2a824c234f0b6781dd5859376295c9872bf5d7925cf9de8af99c611a73"
+    },
+    {
+      "path": "data/gold/mortalidade/mortalidade_municipio.csv",
+      "table": "analytics.mortalidade",
+      "level": "municipio",
+      "rows": 5570,
+      "sha256": "6153af68129936d0eccd00e37dc631032164fdbd581a70e7e0361cf8060cf20f"
+    }
+  ],
+  "row_counts": {
+    "dim_municipio": 5571,
+    "nascimentos": 5603,
+    "morbidades": 225791,
+    "mortalidade": 5603
+  }
+}

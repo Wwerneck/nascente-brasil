@@ -1,0 +1,31 @@
+version: 2
+models:
+  - name: mart_nascimentos_territoriais
+    description: Indicadores de nascidos vivos por residencia, com denominador valido por campo.
+    columns:
+      - name: codigo_territorio
+        data_tests: [not_null]
+      - name: ano
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [2024]
+  - name: mart_morbidades_territoriais
+    description: Indicadores hospitalares por competencia, territorio e grupo, sem representar pessoas unicas.
+    columns:
+      - name: codigo_territorio
+        data_tests: [not_null]
+      - name: competencia
+        data_tests: [not_null]
+  - name: mart_mortalidade_territorial
+    description: Mortalidade observada por residencia; nao equivale a estimativas oficiais corrigidas.
+    columns:
+      - name: codigo_territorio
+        data_tests: [not_null]
+      - name: ano
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [2024]

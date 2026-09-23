@@ -1,0 +1,503 @@
+cid_codigo,cid_categoria,cid_descricao,grupo_morbidade,subgrupo,periodo_obstetrico,fonte_classificacao,e_morbidade
+O00,O00,Gravidez ectopica,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O000,O00,Gravidez abdominal,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O001,O00,Gravidez tubaria,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O002,O00,Gravidez ovariana,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O008,O00,Outr form de gravidez ectopica,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O009,O00,Gravidez ectopica NE,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O01,O01,Mola hidatiforme,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O010,O01,Mola hidatiforme classica,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O011,O01,Mola hidatiforme incompleta ou parcial,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O019,O01,Mola hidatiforme NE,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O02,O02,Outr produtos anormais da concepcao,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O020,O02,Ovo claro e mola nao-hidatiforme,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O021,O02,Aborto retido,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O028,O02,Outr produtos anormais da concepcao espec,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O029,O02,Produto anormal da concepcao NE,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O03,O03,Aborto espontaneo,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O030,O03,Incompl complic inf trato genit org pelvicos,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O031,O03,Incompl complic hemorragia excessiva ou tard,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O032,O03,Incompleto complicado p/embolia,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O033,O03,Incompleto c/outr complic ou c/complic NE,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O034,O03,Incompleto s/complic,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O035,O03,Compl ou NE complic inf trato gen org pelvic,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O036,O03,Compl ou NE complic hemorrag excess ou tard,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O037,O03,Completo ou NE complicado p/embolia,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O038,O03,Compl ou NE c/outr complic ou c/complic NE,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O039,O03,Completo ou NE s/complic,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O04,O04,Aborto p/razoes medicas e legais,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O040,O04,Incompl complic inf trato genit org pelvicos,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O041,O04,Incompl complic hemorragia excessiva ou tard,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O042,O04,Incompleto complicado p/embolia,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O043,O04,Incompleto c/outr complic ou c/complic NE,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O044,O04,Incompleto s/complic,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O045,O04,Compl ou NE complic inf trato gen org pelvic,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O046,O04,Compl ou NE complic hemorrag excess ou tard,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O047,O04,Completo ou NE complicado p/embolia,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O048,O04,Compl ou NE c/outr complic ou c/complic NE,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O049,O04,Completo ou NE s/complic,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O05,O05,Outr tipos de aborto,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O050,O05,Incompl complic inf trato genit org pelvicos,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O051,O05,Incompl complic hemorragia excessiva ou tard,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O052,O05,Incompleto complicado p/embolia,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O053,O05,Incompleto c/outr complic ou c/complic NE,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O054,O05,Incompleto s/complic,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O055,O05,Compl ou NE complic inf trato gen org pelvic,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O056,O05,Compl ou NE complic hemorrag excess ou tard,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O057,O05,Completo ou NE complicado p/embolia,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O058,O05,Compl ou NE c/outr complic ou c/complic NE,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O059,O05,Completo ou NE s/complic,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O06,O06,Aborto NE,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O060,O06,Incompl complic inf trato genit org pelvicos,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O061,O06,Incompl complic hemorragia excessiva ou tard,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O062,O06,Incompleto complicado p/embolia,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O063,O06,Incompleto c/outr complic ou c/complic NE,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O064,O06,Incompleto s/complic,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O065,O06,Compl ou NE complic inf trato gen org pelvic,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O066,O06,Compl ou NE complic hemorrag excess ou tard,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O067,O06,Completo ou NE complicado p/embolia,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O068,O06,Compl ou NE c/outr complic ou c/complic NE,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O069,O06,Completo ou NE s/complic,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O07,O07,Falha de tentativa de aborto,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O070,O07,Falh abort raz med compl inf tr gen org pelv,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O071,O07,Falh abort prov raz med compl hemor tard exc,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O072,O07,Falh abort prov raz med complicado p/embolia,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O073,O07,Falha aborto prov raz medic outr complic NE,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O074,O07,Falha aborto prov raz medic s/complic,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O075,O07,Out for NE fal abor comp inf tr gen org pelv,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O076,O07,Out form NE falh abort compl hemor tard exc,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O077,O07,Outr form e NE falh prov abort compl embolia,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O078,O07,Outr form e NE falh prov abort outr compl NE,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O079,O07,Outr form e NE falha prov aborto s/complic,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O08,O08,Complic conseq aborto gravidez ectop molar,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O080,O08,Inf tr gen org pel cons abort grav ect molar,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O081,O08,Hemorr tard excess cons abort grav ect molar,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O082,O08,Embolia conseq aborto grav ectopica molar,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O083,O08,Choque conseq aborto gravidez ectopica molar,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O084,O08,Insuf renal conseq aborto grav ectopic molar,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O085,O08,Dist metab conseq aborto grav ectopic molar,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O086,O08,Lesao org tec pelv cons abort grav ect molar,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O087,O08,Outr compl venosas cons abort grav ect molar,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O088,O08,Outr complic conseq aborto grav ectop molar,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O089,O08,Complic conseq aborto grav ectopica molar NE,desfecho_abortivo,gestacao_com_desfecho_abortivo,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O10,O10,Hipertens pre-exist complic grav parto puerp,transtornos_hipertensivos,outros_hipertensivos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O100,O10,Hipertens ess pre-exis comp grav parto puerp,transtornos_hipertensivos,outros_hipertensivos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O101,O10,Doen card hiper pre-ex comp grav parto puerp,transtornos_hipertensivos,outros_hipertensivos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O102,O10,Doen renal hiper pre-ex comp grav part puerp,transtornos_hipertensivos,outros_hipertensivos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O103,O10,Doen card ren hip pre-ex comp grav part puer,transtornos_hipertensivos,outros_hipertensivos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O104,O10,Hipertens sec pre-exist comp grav parto puer,transtornos_hipertensivos,outros_hipertensivos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O109,O10,Hipertens pre-exist NE compl grav parto puer,transtornos_hipertensivos,outros_hipertensivos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O11,O11,Dist hipertens pre-exist proteinuria superp,transtornos_hipertensivos,pre_eclampsia,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O12,O12,Edema e proteinuria gestac s/hipertensao,outras_condicoes_maternas,edema_proteinuria_sem_hipertensao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O120,O12,Edema gestacional,outras_condicoes_maternas,edema_proteinuria_sem_hipertensao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O121,O12,Proteinuria gestacional,outras_condicoes_maternas,edema_proteinuria_sem_hipertensao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O122,O12,Edema gestacional c/proteinuria,outras_condicoes_maternas,edema_proteinuria_sem_hipertensao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O13,O13,Hipertensao gestacional s/proteinuria signif,transtornos_hipertensivos,hipertensao_gestacional,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O14,O14,Hipertensao gestacional c/proteinuria signif,transtornos_hipertensivos,pre_eclampsia,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O140,O14,Pre-eclampsia moderada,transtornos_hipertensivos,pre_eclampsia,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O141,O14,Pre-eclampsia grave,transtornos_hipertensivos,pre_eclampsia,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O149,O14,Pre-eclampsia NE,transtornos_hipertensivos,pre_eclampsia,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O15,O15,Eclampsia,transtornos_hipertensivos,eclampsia,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O150,O15,Eclampsia na gravidez,transtornos_hipertensivos,eclampsia,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O151,O15,Eclampsia no trabalho de parto,transtornos_hipertensivos,eclampsia,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O152,O15,Eclampsia no puerperio,transtornos_hipertensivos,eclampsia,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O159,O15,Eclampsia NE quanto ao periodo,transtornos_hipertensivos,eclampsia,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O16,O16,Hipertensao materna NE,transtornos_hipertensivos,outros_hipertensivos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O20,O20,Hemorragia do inicio da gravidez,hemorragias,outras_hemorragias_obstetricas,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O200,O20,Ameaca de aborto,hemorragias,outras_hemorragias_obstetricas,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O208,O20,Outr hemorragias do inicio da gravidez,hemorragias,outras_hemorragias_obstetricas,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O209,O20,Hemorragia do inicio da gravidez NE,hemorragias,outras_hemorragias_obstetricas,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O21,O21,Vomitos excessivos na gravidez,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O210,O21,Hiperemese gravidica leve,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O211,O21,Hiperemese gravidica c/disturbio metabolico,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O212,O21,Vomitos tard da gravidez,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O218,O21,Outr form de vomitos complicando a gravidez,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O219,O21,Vomitos da gravidez NE,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O22,O22,Complic venosas na gravidez,complicacoes_vasculares,complicacoes_venosas,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O220,O22,Varizes dos membros infer na gravidez,complicacoes_vasculares,complicacoes_venosas,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O221,O22,Varizes genitais na gravidez,complicacoes_vasculares,complicacoes_venosas,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O222,O22,Tromboflebite superf na gravidez,complicacoes_vasculares,complicacoes_venosas,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O223,O22,Flebotrombose profunda na gravidez,complicacoes_vasculares,complicacoes_venosas,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O224,O22,Hemorroidas na gravidez,complicacoes_vasculares,complicacoes_venosas,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O225,O22,Trombose venosa cerebral na gravidez,complicacoes_vasculares,complicacoes_venosas,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O228,O22,Outr complic venosas na gravidez,complicacoes_vasculares,complicacoes_venosas,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O229,O22,Complic venosas na gravidez NE,complicacoes_vasculares,complicacoes_venosas,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O23,O23,Infecc do trato geniturinario na gravidez,infeccoes,infeccao_geniturinaria_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O230,O23,Infecc do rim na gravidez,infeccoes,infeccao_geniturinaria_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O231,O23,Infecc da bexiga na gravidez,infeccoes,infeccao_geniturinaria_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O232,O23,Infecc da uretra na gravidez,infeccoes,infeccao_geniturinaria_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O233,O23,Infecc outr partes trato urinario gravidez,infeccoes,infeccao_geniturinaria_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O234,O23,Infecc NE do trato urinario na gravidez,infeccoes,infeccao_geniturinaria_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O235,O23,Infecc do trato genital na gravidez,infeccoes,infeccao_geniturinaria_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O239,O23,Outr infecc e NE trato urinario na gravidez,infeccoes,infeccao_geniturinaria_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O24,O24,Diabetes mellitus na gravidez,disturbios_metabolicos,diabetes_na_gestacao,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O240,O24,Diabetes mellitus pre-exist insulino-depend,disturbios_metabolicos,diabetes_na_gestacao,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O241,O24,Diabetes mellitus pre-exist nao-insulino-dep,disturbios_metabolicos,diabetes_na_gestacao,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O242,O24,Diabetes mellitus pre-existente rel desnutr,disturbios_metabolicos,diabetes_na_gestacao,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O243,O24,Diabetes mellitus pre-existente NE,disturbios_metabolicos,diabetes_na_gestacao,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O244,O24,Diabetes mellitus que surge durante gravidez,disturbios_metabolicos,diabetes_na_gestacao,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O249,O24,Diabetes mellitus na gravidez NE,disturbios_metabolicos,diabetes_na_gestacao,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O25,O25,Desnutric na gravidez,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O26,O26,Assist materna outr complic lig predom grav,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O260,O26,Ganho excessivo de peso na gravidez,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O261,O26,Ganho de peso insuficiente na gravidez,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O262,O26,Assist gravidez p/ abortamento habitual,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O263,O26,Retencao disp intra-uterino contracept grav,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O264,O26,Herpes gestacional,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O265,O26,Sindr da hipotensao materna,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O266,O26,Transt do figado na gravidez parto puerperio,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O267,O26,Subluxacao sinfise gravidez parto puerperio,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O268,O26,Outr afeccoes espec ligadas a gravidez,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O269,O26,Afeccoes ligadas a gravidez NE,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O28,O28,Achados anorm rastr antenatal mae,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O280,O28,Achados hematolog anorm rastr antenatal mae,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O281,O28,Achados bioquim anorm rastr antenatal mae,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O282,O28,Achados citolog anorm rastr antenatal mae,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O283,O28,Achados ultrasson anorm rastr antenatal mae,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O284,O28,Achados radiolog anorm rastr antenatal mae,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O285,O28,Achados cromos genet anorm rastr antenat mae,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O288,O28,Outr achados anorm rastr antenatal da mae,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O289,O28,Achados anorm rastr antenatal da mae NE,outras_condicoes_maternas,outras_condicoes_da_gestacao,gestacao,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O29,O29,Complic anestesia admin durante gravidez,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O290,O29,Complic pulm anestesia admin durante grav,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O291,O29,Complic card anestesia admin durante grav,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O292,O29,Complic sist nerv centr dev anest admin grav,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O293,O29,Reacao toxica anest local admin durante grav,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O294,O29,Cefaleia anest raquid peridur admin dur grav,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O295,O29,Outr compl anest raq peridur admin dur grav,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O296,O29,Falha dificuld na entubacao durante gravidez,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O298,O29,Outr complic de anestesia durante a gravidez,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O299,O29,Complic de anestesia durante a gravidez NE,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O30,O30,Gestacao mult,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O300,O30,Gravidez dupla,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O301,O30,Gravidez trigemelar,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O302,O30,Gravidez quadrigemelar,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O308,O30,Outr gestacoes mult,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O309,O30,Gestacao mult NE,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O31,O31,Complic especificas de gestacao mult,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O310,O31,Feto papiraceo,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O311,O31,Continuacao gravidez apos aborto de fetos,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O312,O31,Contin grav apos morte intra-uter de fetos,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O318,O31,Outr complic especificas de gestacao mult,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O32,O32,Assist prest mae apres anorm conh susp feto,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O320,O32,Assist prest mae p/posicao fetal instavel,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O321,O32,Assist prestada a mae p/apresentacao pelvica,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O322,O32,Assist prest mae pos fetal transv e obliqua,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O323,O32,Assist prest mae apres face mento e fronte,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O324,O32,Assist prest mae polo cefal alto gest termo,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O325,O32,Assist prest mae gest mult apres anorm fetos,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O326,O32,Assist prest mae p/apresentacao composta,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O328,O32,Assist prest mae outr form apres anorm feto,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O329,O32,Assist prest mae apres anormal do feto NE,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O33,O33,Assist prest mae desprop conhecida suspeita,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O330,O33,Assist prest mae despr deform pelv ossea mat,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O331,O33,Assist prest mae desprop contrac geral pelve,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O332,O33,Assist prest mae despr contr estr sup pelve,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O333,O33,Assist prest mae despr contr estr inf pelve,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O334,O33,Assist prest mae desprop orig mista mat fet,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O335,O33,Assist prest mae desprop feto excepc grande,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O336,O33,Assist prest mae desprop feto hidrocefalico,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O337,O33,Assist prest mae desprop dev outr deform fet,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O338,O33,Assist prest mae desproporcao de outr origem,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O339,O33,Assist prestada a mae p/uma desproporcao NE,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O34,O34,Assist prest mae anor conh susp org pelv mat,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O340,O34,Assist a mae p/malformacao congen do utero,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O341,O34,Assist prestada a mae p/tumor do corpo utero,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O342,O34,Assist prest mae cicatriz uterina cirurg ant,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O343,O34,Assist prest mae p/incompetencia cervical,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O344,O34,Assist prest mae outr anorm colo do utero,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O345,O34,Assist prest mae outr anorm utero gravidico,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O346,O34,Assist prest mae p/anormalidade da vagina,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O347,O34,Assist prest mae p/anorm da vulva e perineo,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O348,O34,Assist prest mae p/outr anorm org pelvicos,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O349,O34,Assist prest mae p/anorm orgaos pelvicos NE,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O35,O35,Assist prest mae anorm lesao fet conhec susp,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O350,O35,Assist prest mae malform sist nerv cent feto,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O351,O35,Assist prest mae anorm cromossomica do feto,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O352,O35,Assist prest mae p/doenc hereditaria do feto,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O353,O35,Assist prest mae lesao fet caus doen vir mat,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O354,O35,Assist prest mae lesao caus feto alcool mat,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O355,O35,Assist prest mae lesao fetal causada drogas,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O356,O35,Assist prest mae lesao fetal causada radiac,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O357,O35,Assist prest mae lesao fet caus out proc med,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O358,O35,Assist prest mae outr anorm ou lesoes fetais,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O359,O35,Assist prest mae lesao ou anorm fetais NE,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O36,O36,Assist prest mae outr probl fet conhec susp,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O360,O36,Assist prestada a mae p/isoimunizacao Rh,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O361,O36,Assist prest mae p/outr tipos isoimunizacao,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O362,O36,Assist prestada a mae p/hidropsia fetal,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O363,O36,Assist prestada a mae p/sinais hipoxia fetal,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O364,O36,Assist prestada a mae p/morte intra-uterina,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O365,O36,Assist prestada a mae p/insuf cresc fetal,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O366,O36,Assist prestada a mae p/cresc fetal excess,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O367,O36,Assist prest mae feto viavel grav abdominal,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O368,O36,Assist prest mae outr problemas fetais espec,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O369,O36,Assist prestada a mae p/problema fetal NE,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O40,O40,Polihidramnio,complicacoes_gestacao,liquido_membranas_ou_placenta,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O41,O41,Outr transt membranas e liquido amniotico,complicacoes_gestacao,liquido_membranas_ou_placenta,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O410,O41,Oligohidramnio,complicacoes_gestacao,liquido_membranas_ou_placenta,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O411,O41,Infecc do saco amniotico e das membranas,complicacoes_gestacao,liquido_membranas_ou_placenta,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O418,O41,Outr transt espec liq amniotico e membranas,complicacoes_gestacao,liquido_membranas_ou_placenta,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O419,O41,Transt do liquido amniotico e membranas NE,complicacoes_gestacao,liquido_membranas_ou_placenta,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O42,O42,Ruptura prematura de membranas,complicacoes_gestacao,liquido_membranas_ou_placenta,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O420,O42,Ruptura premat membr c/inic trab parto 24h,complicacoes_gestacao,liquido_membranas_ou_placenta,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O421,O42,Ruptura premat membr inic trab parto dep 24h,complicacoes_gestacao,liquido_membranas_ou_placenta,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O422,O42,Ruptura premat membr trab parto retard terap,complicacoes_gestacao,liquido_membranas_ou_placenta,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O429,O42,Ruptura prematura de membranas NE,complicacoes_gestacao,liquido_membranas_ou_placenta,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O43,O43,Transt da placenta,complicacoes_gestacao,liquido_membranas_ou_placenta,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O430,O43,Sindr de transfusao placentaria,complicacoes_gestacao,liquido_membranas_ou_placenta,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O431,O43,Malformacao da placenta,complicacoes_gestacao,liquido_membranas_ou_placenta,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O438,O43,Outr transt da placenta,complicacoes_gestacao,liquido_membranas_ou_placenta,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O439,O43,Transt da placenta NE,complicacoes_gestacao,liquido_membranas_ou_placenta,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O44,O44,Placenta previa,hemorragias,outras_hemorragias_obstetricas,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O440,O44,Placenta previa espec como s/hemorragia,hemorragias,outras_hemorragias_obstetricas,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O441,O44,Placenta previa c/hemorragia,hemorragias,outras_hemorragias_obstetricas,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O45,O45,Descolamento prematuro da placenta,hemorragias,outras_hemorragias_obstetricas,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O450,O45,Descolamento premat placenta c/defic coagul,hemorragias,outras_hemorragias_obstetricas,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O458,O45,Outr descolamento prematuro da placenta,hemorragias,outras_hemorragias_obstetricas,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O459,O45,Descolamento prematuro da placenta NE,hemorragias,outras_hemorragias_obstetricas,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O46,O46,Hemorragia anteparto NCOP,hemorragias,outras_hemorragias_obstetricas,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O460,O46,Hemorragia anteparto c/defic de coagulacao,hemorragias,outras_hemorragias_obstetricas,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O468,O46,Outr form de hemorragia anteparto,hemorragias,outras_hemorragias_obstetricas,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O469,O46,Hemorragia anteparto NE,hemorragias,outras_hemorragias_obstetricas,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O47,O47,Falso trabalho de parto,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O470,O47,Falso trab parto antes de 37 sem gestacao,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O471,O47,Falso trab parto 37¦ sem completa ou depois,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O479,O47,Falso trabalho de parto NE,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O48,O48,Gravidez prolongada,assistencia_obstetrica,assistencia_materna_ou_fetal,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O60,O60,Parto pre-termo,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O600,O60,Trabalho de parto pré-termo sem parto,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O601,O60,Trabalho de parto pré-termo com parto pré-te,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O602,O60,Trabalho de parto pré-termo com parto a term,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O61,O61,Falha na inducao do trabalho de parto,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O610,O61,Falha na inducao medica do trabalho de parto,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O611,O61,Falha inducao instrumental trabalho de parto,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O618,O61,Outr form falha na inducao trabalho de parto,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O619,O61,Falha na inducao do trabalho de parto NE,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O62,O62,Anormalidades da contracao uterina,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O620,O62,Contracoes iniciais inadequadas,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O621,O62,Inercia uterina secund,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O622,O62,Outr form de inercia uterina,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O623,O62,Trabalho de parto precipitado,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O624,O62,Contrac uterinas hiperton incoord ou prolong,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O628,O62,Outr anormalidades da contracao uterina,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O629,O62,Anormalidades da contracao uterina NE,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O63,O63,Trabalho de parto prolongado,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O630,O63,Prolongamento do primeiro periodo,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O631,O63,Prolongamento do segundo periodo,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O632,O63,Parto retardado segundo terceiro gemeo etc,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O639,O63,Trabalho de parto prolongado NE,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O64,O64,Obstr trab parto dev ma-posic ma-apres feto,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O640,O64,Obstr trab part dev rot incomp polo cef fet,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O641,O64,Obstr trab parto dev apresentacao pelvica,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O642,O64,Obstr trab parto dev apresentacao de face,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O643,O64,Obstr trab parto dev apresentacao de fronte,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O644,O64,Obstr trab parto dev apresentacao de ombro,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O645,O64,Obstr trab parto dev apresentacao complexa,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O648,O64,Obstr trab part dev out form ma-apres ma-pos,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O649,O64,Obstr trab parto dev ma-posic ou ma-apres NE,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O65,O65,Obstr trab parto dev anorm pelvica da mae,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O650,O65,Obstr trabalho de parto dev deform pelvica,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O651,O65,Obstr trab parto dev contracao geral pelve,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O652,O65,Obstr trab parto dev contracao estreito sup,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O653,O65,Obstr trab parto dev contr estr inf cav med,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O654,O65,Obstr trab parto dev desprop feto-pelvica NE,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O655,O65,Obstr trab parto dev anorm org pelvicos mat,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O658,O65,Obstr trab parto dev outr anorm pelvicas mat,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O659,O65,Obstr trab parto dev anorm pelvicas mat NE,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O66,O66,Outr form de obstrucao do trabalho de parto,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O660,O66,Obstr trab parto dev distocia de ombro,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O661,O66,Obstr trabalho de parto p/colis de gemeos,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O662,O66,Obstr trab parto p/feto excepc grande,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O663,O66,Obstr trab parto dev outr anorm do feto,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O664,O66,Falha de tentativa de trabalho de parto NE,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O665,O66,Falha aplicacao forceps e vacuo-extrator NE,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O668,O66,Outr form de obstrucao do trab parto espec,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O669,O66,Obstrucao do trabalho de parto NE,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O67,O67,Trab parto parto compl hemorr intrapart NCOP,hemorragias,outras_hemorragias_obstetricas,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O670,O67,Hemorragia intraparto c/defic de coagulacao,hemorragias,outras_hemorragias_obstetricas,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O678,O67,Outr hemorragias intraparto,hemorragias,outras_hemorragias_obstetricas,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O679,O67,Hemorragia intraparto NE,hemorragias,outras_hemorragias_obstetricas,gestacao_parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O68,O68,Trab parto e parto complic sofrimento fetal,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O680,O68,Trab parto e parto compl anorm freq card fet,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O681,O68,Trab parto e parto compl meconio liq amniot,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O682,O68,Trab part part anor frq card fet mec liq amn,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O683,O68,Trab parto e parto compl evid bioq sofr fet,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O688,O68,Trab parto e parto compl outr evid sofr fet,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O689,O68,Trab parto e parto complic sofr fetal NE,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O69,O69,Trab parto parto compl anorm cordao umbilic,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O690,O69,Trab parto e parto complic prolapso cordao,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O691,O69,Trab part part compl circul cordao c/compres,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O692,O69,Trab parto e parto compl outr enovel cordao,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O693,O69,Trab parto e parto complic p/cordao curto,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O694,O69,Trab parto e parto complic p/vasa praevia,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O695,O69,Trab parto e parto complic lesao vasc cordao,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O698,O69,Trab parto e parto complic outr compl cordao,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O699,O69,Trab parto e parto complic cordao NE,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O70,O70,Laceracao do perineo durante o parto,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O700,O70,Laceracao perineo 1. grau durante o parto,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O701,O70,Laceracao perineo 2. grau durante o parto,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O702,O70,Laceracao perineo 3. grau durante o parto,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O703,O70,Laceracao perineo 4. grau durante o parto,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O709,O70,Laceracao de perineo durante o parto NE,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O71,O71,Outr traum obstetricos,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O710,O71,Ruptura do utero antes inicio trab parto,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O711,O71,Ruptura do utero durante o trabalho de parto,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O712,O71,Inversao do utero pos-parto,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O713,O71,Laceracao obstetrica do colo do utero,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O714,O71,Laceracao vaginal alta isolada orig obstetr,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O715,O71,Outr lesoes obstetricas aos orgaos pelvicos,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O716,O71,Lesao obstetr artic e ligamentos pelvicos,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O717,O71,Hematoma obstetrico da pelve,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O718,O71,Outr traum obstetricos espec,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O719,O71,Traum obstetrico NE,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O72,O72,Hemorragia pos-parto,hemorragias,hemorragia_pos_parto,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O720,O72,Hemorragia do terceiro estagio,hemorragias,hemorragia_pos_parto,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O721,O72,Outr hemorragias do pos-parto imediato,hemorragias,hemorragia_pos_parto,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O722,O72,Hemorragias pos-parto tard e secund,hemorragias,hemorragia_pos_parto,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O723,O72,Defic de coagulacao pos-parto,hemorragias,hemorragia_pos_parto,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O73,O73,Retencao placenta e membranas s/hemorragias,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O730,O73,Retencao da placenta s/hemorragia,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O731,O73,Retencao partes placenta ou membr s/hemorrag,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O74,O74,Complic anestesia durante trab parto e parto,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O740,O74,Pneumonite aspirat dev anest trab parto part,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O741,O74,Outr complic pulm dev anest trab parto parto,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O742,O74,Complic card dev anest trab parto e parto,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O743,O74,Comp sist nerv cent dev anest trab part part,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O744,O74,Reacao toxica anest local trab parto e parto,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O745,O74,Cefal pos-anest raquid perid trab parto part,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O746,O74,Outr compl anest raquid perid trab part part,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O747,O74,Falha ou dific entubacao trab parto e parto,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O748,O74,Outr complic anest durante trab parto parto,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O749,O74,Complic anest durante trab parto e parto NE,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O75,O75,Outr complic do trab parto e do parto NCOP,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O750,O75,Sofrim materno durante trab parto e parto,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O751,O75,Choque durante ou subseq trab parto e parto,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O752,O75,Febre durante o trabalho de parto NCOP,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O753,O75,Outr infecc durante o trabalho de parto,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O754,O75,Outr complic proced ou cirurgia obstetrica,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O755,O75,Demora do parto apos ruptura artif membranas,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O756,O75,Demora parto apos ruptura espont ou NE membr,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O757,O75,Parto vaginal subseq cesariana anterior,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O758,O75,Outr complic espec trab parto e do parto,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O759,O75,Complic do trabalho de parto e do parto NE,complicacoes_parto,trabalho_de_parto_ou_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O80,O80,Parto unico espontaneo,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O800,O80,Parto espontaneo cefalico,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O801,O80,Parto espontaneo pelvico,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O808,O80,Outr tipos de parto unico espontaneo,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O809,O80,Parto unico espontaneo NE,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O81,O81,Parto unico p/forceps ou vacuo-extrator,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O810,O81,Parto p/forceps baixo,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O811,O81,Parto p/forceps da cavidade mediana,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O812,O81,Forceps da cavidade mediana c/rotacao,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O813,O81,Outr tipos de parto p/forceps e os NE,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O814,O81,Parto p/vacuo-extrator,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O815,O81,Parto p/combinacao forceps e vacuo-extrator,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O82,O82,Parto unico p/cesariana,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O820,O82,Parto p/cesariana eletiva,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O821,O82,Parto p/cesariana de emergencia,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O822,O82,Parto p/cesariana p/histerectomia,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O828,O82,Outr tipos de parto unico p/cesariana,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O829,O82,Parto p/cesariana NE,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O83,O83,Outr tipos de parto unico assistido,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O830,O83,Extracao pelvica,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O831,O83,Outr tipos de parto pelvico assistido,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O832,O83,Outr form de parto c/o auxilio manipulacao,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O833,O83,Parto de grav intra-abdominal feto viavel,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O834,O83,Cirurgia destrutiva p/facilitar o parto,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O838,O83,Outr tipos espec de parto unico assistido,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O839,O83,Parto unico assistido NE,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O84,O84,Parto mult,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O840,O84,Parto mult todos espontaneos,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O841,O84,Parto mult todos p/forceps ou vacuo-extrator,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O842,O84,Parto mult todos p/cesariana,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O848,O84,Outr tipo de parto mult,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O849,O84,Parto mult NE,parto,via_ou_tipo_de_parto,parto,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O85,O85,Infecc puerperal,infeccoes,infeccao_puerperal,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O86,O86,Outr infecc puerperais,infeccoes,infeccao_puerperal,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O860,O86,Infecc da incisao cirurgica orig obstetrica,infeccoes,infeccao_puerperal,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O861,O86,Outr infecc dos orgaos genitais subseq parto,infeccoes,infeccao_puerperal,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O862,O86,Infecc das vias urinarias subsequentes parto,infeccoes,infeccao_puerperal,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O863,O86,Outr infecc vias genitourin subseq parto,infeccoes,infeccao_puerperal,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O864,O86,Febre orig desconhecida subsequente ao parto,infeccoes,infeccao_puerperal,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O868,O86,Outr infecc puerperais espec,infeccoes,infeccao_puerperal,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O87,O87,Complic venosas no puerperio,complicacoes_vasculares,complicacoes_venosas,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O870,O87,Tromboflebite superf no puerperio,complicacoes_vasculares,complicacoes_venosas,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O871,O87,Tromboflebite profunda no puerperio,complicacoes_vasculares,complicacoes_venosas,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O872,O87,Hemorroidas no puerperio,complicacoes_vasculares,complicacoes_venosas,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O873,O87,Trombose venosa cerebral no puerperio,complicacoes_vasculares,complicacoes_venosas,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O878,O87,Outr complic venosas no puerperio,complicacoes_vasculares,complicacoes_venosas,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O879,O87,Complic venosas no puerperio NE,complicacoes_vasculares,complicacoes_venosas,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O88,O88,Embolia orig obstetrica,complicacoes_vasculares,embolia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O880,O88,Embolia gasosa orig obstetrica,complicacoes_vasculares,embolia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O881,O88,Embolia amniotica,complicacoes_vasculares,embolia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O882,O88,Embolia obstetrica p/coagulo de sangue,complicacoes_vasculares,embolia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O883,O88,Embolia septica ou piemica orig obstetrica,complicacoes_vasculares,embolia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O888,O88,Outr embolias orig obstetrica,complicacoes_vasculares,embolia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O89,O89,Complic da anestesia admin durante puerperio,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O890,O89,Complic pulm anestesia durante puerperio,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O891,O89,Complic card dev anestesia durante puerperio,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O892,O89,Compl rel sist nerv cent dev anest puerperio,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O893,O89,Reacao toxica anest local durante puerperio,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O894,O89,Cefaleia prov anest raquid perid puerperio,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O895,O89,Outr compl anest raquid perid puerperio,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O896,O89,Falha dific de entubacao durante puerperio,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O898,O89,Outr complic anestesia durante o puerperio,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O899,O89,Complic dev anestesia durante o puerperio NE,complicacoes_anestesicas,anestesia_obstetrica,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O90,O90,Complic do puerperio NCOP,complicacoes_puerperais,outras_complicacoes_puerperais,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O900,O90,Ruptura da incisao de cesariana,complicacoes_puerperais,outras_complicacoes_puerperais,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O901,O90,Ruptura da incisao obstetrica no perineo,complicacoes_puerperais,outras_complicacoes_puerperais,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O902,O90,Hematoma da incisao obstetrica,complicacoes_puerperais,outras_complicacoes_puerperais,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O903,O90,Cardiomiopatia no puerperio,complicacoes_puerperais,outras_complicacoes_puerperais,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O904,O90,Insuf renal aguda do pos-parto,complicacoes_puerperais,outras_complicacoes_puerperais,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O905,O90,Tireoidite do pos-parto,complicacoes_puerperais,outras_complicacoes_puerperais,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O908,O90,Outr complic do puerperio NCOP,complicacoes_puerperais,outras_complicacoes_puerperais,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O909,O90,Complic do puerperio NE,complicacoes_puerperais,outras_complicacoes_puerperais,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O91,O91,Infecc mamarias assoc ao parto,infeccoes,infeccao_puerperal,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O910,O91,Infecc do mamilo assoc ao parto,infeccoes,infeccao_puerperal,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O911,O91,Abscesso da mama assoc ao parto,infeccoes,infeccao_puerperal,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O912,O91,Mastite nao purulenta assoc ao parto,infeccoes,infeccao_puerperal,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O92,O92,Outr afeccoes mama e lactacao assoc ao parto,complicacoes_puerperais,outras_complicacoes_puerperais,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O920,O92,Mamilo retraido assoc ao parto,complicacoes_puerperais,outras_complicacoes_puerperais,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O921,O92,Fissuras do mamilo assoc ao parto,complicacoes_puerperais,outras_complicacoes_puerperais,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O922,O92,Outr afeccoes da mama e as NE assoc ao parto,complicacoes_puerperais,outras_complicacoes_puerperais,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O923,O92,Agalactia,complicacoes_puerperais,outras_complicacoes_puerperais,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O924,O92,Hipogalactia,complicacoes_puerperais,outras_complicacoes_puerperais,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O925,O92,Suspensao da lactacao,complicacoes_puerperais,outras_complicacoes_puerperais,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O926,O92,Galactorreia,complicacoes_puerperais,outras_complicacoes_puerperais,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O927,O92,Outr disturbios da lactacao e os NE,complicacoes_puerperais,outras_complicacoes_puerperais,puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O93,O93,Morte materna NO PERIODO MATERNO-PUERPERAL,outras_condicoes_obstetricas,outras_condicoes_obstetricas,indeterminado,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O930,O93,Morte materna associada a acidente de trânsi,outras_condicoes_obstetricas,outras_condicoes_obstetricas,indeterminado,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O931,O93,Morte materna associada a queda acidental,outras_condicoes_obstetricas,outras_condicoes_obstetricas,indeterminado,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O932,O93,Morte materna associada a afogamento acident,outras_condicoes_obstetricas,outras_condicoes_obstetricas,indeterminado,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O933,O93,Morte materna associada a queimadura acident,outras_condicoes_obstetricas,outras_condicoes_obstetricas,indeterminado,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O934,O93,Morte materna associada a situações de enven,outras_condicoes_obstetricas,outras_condicoes_obstetricas,indeterminado,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O935,O93,Morte materna associada a assistência médica,outras_condicoes_obstetricas,outras_condicoes_obstetricas,indeterminado,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O936,O93,Morte materna associada a lesões auto-inflig,outras_condicoes_obstetricas,outras_condicoes_obstetricas,indeterminado,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O937,O93,Morte materna associada a agressão,outras_condicoes_obstetricas,outras_condicoes_obstetricas,indeterminado,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O938,O93,Morte materna associada a demais acidentes q,outras_condicoes_obstetricas,outras_condicoes_obstetricas,indeterminado,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O939,O93,Morte materna associada a circunstância da c,outras_condicoes_obstetricas,outras_condicoes_obstetricas,indeterminado,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O94,O94,"Seqüelas de complicação da gravidez, parto e p",outras_condicoes_obstetricas,outras_condicoes_obstetricas,indeterminado,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O95,O95,Morte obstetrica de causa NE,outras_condicoes_obstetricas,outras_condicoes_obstetricas,indeterminado,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O96,O96,Morte qq caus obst mais 42d menos 1a parto,outras_condicoes_obstetricas,outras_condicoes_obstetricas,indeterminado,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O97,O97,Morte p/sequelas causas obstetricas diretas,outras_condicoes_obstetricas,outras_condicoes_obstetricas,indeterminado,DATASUS CID10.DBF + regra analitica phase8-v1,0
+O98,O98,Doen inf paras mat COP compl grav part puerp,outras_condicoes_maternas,doencas_classificadas_em_outros_capitulos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O980,O98,Tuberc complic gravidez parto e puerperio,outras_condicoes_maternas,doencas_classificadas_em_outros_capitulos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O981,O98,Sifilis complic gravidez parto e puerperio,outras_condicoes_maternas,doencas_classificadas_em_outros_capitulos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O982,O98,Gonorreia complic gravidez parto e puerperio,outras_condicoes_maternas,doencas_classificadas_em_outros_capitulos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O983,O98,Out inf via trans sex compl grav parto puerp,outras_condicoes_maternas,doencas_classificadas_em_outros_capitulos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O984,O98,Hepatite viral complic gravidez parto puerp,outras_condicoes_maternas,doencas_classificadas_em_outros_capitulos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O985,O98,Outr doenc virais compl gravidez parto puerp,outras_condicoes_maternas,doencas_classificadas_em_outros_capitulos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O986,O98,Doenc caus protozoar compl grav parto puerp,outras_condicoes_maternas,doencas_classificadas_em_outros_capitulos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O988,O98,Out doen inf paras mat comp grav parto puerp,outras_condicoes_maternas,doencas_classificadas_em_outros_capitulos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O989,O98,Doen inf paras mat NE compl grav parto puerp,outras_condicoes_maternas,doencas_classificadas_em_outros_capitulos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O99,O99,Outr doenc mat COP compl grav parto puerp,outras_condicoes_maternas,doencas_classificadas_em_outros_capitulos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O990,O99,Anemia complic gravidez parto puerperio,outras_condicoes_maternas,anemia_complicando_gestacao,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O991,O99,Out doen sang hemat imun comp grav part puer,outras_condicoes_maternas,doencas_classificadas_em_outros_capitulos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O992,O99,Doen endoc nutr metab compl grav parto puerp,outras_condicoes_maternas,doencas_classificadas_em_outros_capitulos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O993,O99,Trans ment doen sis nerv comp grav part puer,outras_condicoes_maternas,doencas_classificadas_em_outros_capitulos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O994,O99,Doenc ap circulat compl gravidez parto puerp,outras_condicoes_maternas,doencas_classificadas_em_outros_capitulos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O995,O99,Doenc ap respirat compl gravidez parto puerp,outras_condicoes_maternas,doencas_classificadas_em_outros_capitulos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O996,O99,Doenc ap digestiv compl gravidez parto puerp,outras_condicoes_maternas,doencas_classificadas_em_outros_capitulos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O997,O99,Doenc pele tec subcut compl grav parto puerp,outras_condicoes_maternas,doencas_classificadas_em_outros_capitulos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1
+O998,O99,Outr doenc afec espec compl grav parto puerp,outras_condicoes_maternas,doencas_classificadas_em_outros_capitulos,gestacao_parto_puerperio,DATASUS CID10.DBF + regra analitica phase8-v1,1

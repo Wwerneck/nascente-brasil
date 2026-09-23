@@ -1,0 +1,80 @@
+{
+  "pipeline_version": "phase7-v1",
+  "processed_at": "2026-09-22T12:32:23.757229+00:00",
+  "reference_period": "2024",
+  "source_files": 324,
+  "source_rows": 14171364,
+  "source_bytes": 1068487866,
+  "source_checksums_sha256": "6ee680f17780a1966de0faf563268f74803ca36655074dcc2fa8516401733261",
+  "geography_sha256": "8fb8b4cb8c68dba4f40d03ba1f37fabcef422eaa4d51c160749f50a3e45ee31a",
+  "documentation": {
+    "path": "data/raw/sih/original/IT_SIHSUS_1603.pdf",
+    "bytes": 57465,
+    "sha256": "1e89d5f2cc41420385d7e30ba5541a387912ab3a0efb167d39def74502076220"
+  },
+  "silver_schema": "arquivo_fonte: string not null\nuf_arquivo: string not null\ncompetencia: string not null\ncodigo_municipio_gestor: string\nespecialidade_leito: string\nnumero_aih: string not null\ntipo_aih: string\ncodigo_municipio_residencia: string\ncodigo_ibge_residencia: string\nsexo: string\nuti_dias: int32\nuci_dias: int32\ndiarias_acompanhante: int32\nquantidade_diarias: int32\nprocedimento_solicitado: string\nprocedimento_realizado: string\nvalor_servicos_hospitalares: decimal128(14, 2)\nvalor_servicos_profissionais: decimal128(14, 2)\nvalor_total: decimal128(14, 2)\nvalor_uti: decimal128(14, 2)\ndata_internacao: date32[day]\ndata_saida: date32[day]\ndiagnostico_principal: string\ndiagnostico_secundario: string\nmotivo_cobranca: string\nnatureza_juridica: string\ngestao: string\ncodigo_municipio_estabelecimento: string\ncodigo_ibge_estabelecimento: string\nunidade_idade: string\nidade: int16\ndias_permanencia: int32\nobito: int8\ncarater_internacao: string\nnumero_filhos: int16\ninstrucao: string\ncid_notificacao: string\ngestacao_risco: string\nsequencia_aih5: string\ncbor: string\ncodigo_cnes: string\ninfeccao_hospitalar: string\ncid_associado: string\ncid_morte: string\ncomplexidade: string\nfinanciamento: string\nraca_cor: string\netnia: string\ndiagnostico_secundario_1: string\ndiagnostico_secundario_2: string\ndiagnostico_secundario_3: string\ndiagnostico_secundario_4: string\ndiagnostico_secundario_5: string\ndiagnostico_secundario_6: string\ndiagnostico_secundario_7: string\ndiagnostico_secundario_8: string\ndiagnostico_secundario_9: string\ntipo_diagnostico_secundario_1: string\ntipo_diagnostico_secundario_2: string\ntipo_diagnostico_secundario_3: string\ntipo_diagnostico_secundario_4: string\ntipo_diagnostico_secundario_5: string\ntipo_diagnostico_secundario_6: string\ntipo_diagnostico_secundario_7: string\ntipo_diagnostico_secundario_8: string\ntipo_diagnostico_secundario_9: string",
+  "summary": {
+    "rows": 14171364,
+    "files": 324,
+    "competencies": 12,
+    "distinct_aih_numbers": 14048357,
+    "type_1_rows": 14037828,
+    "type_5_rows": 133536,
+    "other_type_rows": 0,
+    "missing_primary_diagnosis": 0,
+    "rows_with_secondary_diagnosis": 3166763,
+    "unmatched_residence": 0,
+    "unmatched_establishment": 0,
+    "stay_days": 70432057,
+    "total_value": "23671426406.63",
+    "duplicate_aih_keys_within_partition": 5208
+  },
+  "quality": {
+    "invalid_dates": {
+      "DT_INTER": 0,
+      "DT_SAIDA": 0
+    },
+    "invalid_primary_diagnosis": 0,
+    "invalid_secondary_diagnosis": 764,
+    "discharge_before_admission": 0,
+    "unmatched_residence": 0,
+    "unmatched_establishment": 0,
+    "duplicate_aih_in_partition": 6585
+  },
+  "cnes_join": [
+    {
+      "match_status": "matched_same_competence",
+      "registros": 14020838
+    },
+    {
+      "match_status": "not_in_hospital_beds_2024",
+      "registros": 146966
+    },
+    {
+      "match_status": "cnes_seen_other_competence",
+      "registros": 3560
+    }
+  ],
+  "sql_sha256": "a4eb294520eebf3bcd3b3ebfd103eb97f82075a12833ad46c131e9905a23237d",
+  "outputs": {
+    "by_competence": {
+      "path": "data/processed/sih/analytics/sih_2024_by_competence.csv",
+      "rows": 12,
+      "bytes": 605,
+      "sha256": "675a5234ab4dcd29307d1828ea628e45ddd88a71c777394b4a398c016ab05f34"
+    },
+    "by_partition": {
+      "path": "data/processed/sih/analytics/sih_2024_by_partition.csv",
+      "rows": 324,
+      "bytes": 11339,
+      "sha256": "0373653c33c40116722828dfa9a37977b1024794c2ace7e4e1391997aa809f5f"
+    },
+    "cnes_audit": {
+      "path": "data/processed/sih/analytics/sih_2024_cnes_temporal_audit.csv",
+      "rows": 3,
+      "bytes": 121,
+      "sha256": "d3e77c142ce2cae797e689fd303b6d6fe04208dac9f2db66d8a17b8af7bb4d39"
+    }
+  },
+  "partition_state": "data/metadata/sih_2024_processing_state.json"
+}

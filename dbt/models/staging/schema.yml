@@ -1,0 +1,40 @@
+version: 2
+models:
+  - name: stg_dim_municipio
+    columns:
+      - name: codigo_ibge
+        data_tests: [unique, not_null]
+      - name: codigo_sinasc_6
+        data_tests: [unique, not_null]
+      - name: uf
+        data_tests: [not_null]
+  - name: stg_morbidades
+    columns:
+      - name: nivel_territorial
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [brasil, regiao, estado, municipio]
+      - name: registros_aih
+        data_tests: [not_null]
+  - name: stg_mortalidade
+    columns:
+      - name: nivel_territorial
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [brasil, regiao, estado, municipio]
+      - name: nascidos_vivos
+        data_tests: [not_null]
+  - name: stg_nascimentos
+    columns:
+      - name: nivel_territorial
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [brasil, regiao, estado, municipio]
+      - name: nascidos_vivos
+        data_tests: [not_null]

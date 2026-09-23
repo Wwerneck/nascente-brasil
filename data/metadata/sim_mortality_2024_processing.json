@@ -1,0 +1,91 @@
+{
+  "pipeline_version": "phase9-v2",
+  "processed_at": "2026-09-22T13:56:38.478031+00:00",
+  "reference_period": "2024",
+  "inputs": {
+    "sim_dbc": "bd5cbcd32e249a8d2851a479e389b05ec20648fc8d67d0e00c028316fbc4d0e0",
+    "sinasc_silver": "4222c57d4d69422faa7e838bc0031f90422731ff1cee336dfc72abd5b603c8f4",
+    "ibge_municipality": "8fb8b4cb8c68dba4f40d03ba1f37fabcef422eaa4d51c160749f50a3e45ee31a",
+    "pipeline_code": "fdfd07e044b5a9233d0f9bdfa6c5aa10693f711ad7b5ffc61ac2a01caa2d855e",
+    "conversion_code": "da81290175aeeb551ac4f7de80da04a0c497a1c31a5204a486407f6030bc2858"
+  },
+  "source": {
+    "rows": 1532015,
+    "bytes": 137713772,
+    "sha256": "bd5cbcd32e249a8d2851a479e389b05ec20648fc8d67d0e00c028316fbc4d0e0",
+    "schema_version": "dbf-fields-sha256:53408ac7fe887e24ce21a51ab2c819e8962977de128560b1148388338b487022"
+  },
+  "artifacts": {
+    "raw_csv": {
+      "path": "data/raw/sim/csv/DOBR2024.csv.gz",
+      "rows": 1532015,
+      "bytes": 91074051,
+      "sha256": "93d6e7f5fbffb03b1686dbf9651a2ed01fa900ed3a02bd2ab2858fb49e786ff4"
+    },
+    "silver": {
+      "path": "data/processed/sim/sim_2024_silver.parquet",
+      "rows": 1532015,
+      "bytes": 24068524,
+      "sha256": "24b12af8739850cf5ef77542f20ca24c3eed2f903a853c94f30bc68e05b7144e"
+    }
+  },
+  "conversion_quality": {
+    "invalid_dates": {
+      "DTOBITO": 0,
+      "DTNASC": 0,
+      "DTINVESTIG": 0
+    },
+    "unmatched_residence": 2290,
+    "unmatched_occurrence": 18,
+    "birth_after_death": 1,
+    "missing_basic_cause": 0
+  },
+  "summary": {
+    "sim_rows": 1532015,
+    "deaths_in_2024": 1532015,
+    "fetal": 0,
+    "nonfetal": 1532015,
+    "missing_death_date": 0,
+    "unmatched_residence": 2290,
+    "obstetric_basic_cause": 1326,
+    "late_maternal_or_sequela": 258,
+    "indirect_candidates": 0,
+    "infant": 30020,
+    "neonatal": 20113,
+    "early_neonatal": 14933,
+    "live_births": 2389325,
+    "unmatched_live_births": 54,
+    "unallocated_deaths": 2290,
+    "unallocated_obstetric_basic_cause": 0,
+    "unallocated_infant": 6,
+    "unallocated_neonatal": 5,
+    "unallocated_early_neonatal": 5,
+    "age_code_date_disagreement": 11
+  },
+  "gold": {
+    "brasil": {
+      "path": "data/gold/mortalidade/mortalidade_brasil.csv",
+      "rows": 1,
+      "bytes": 466,
+      "sha256": "65c808cc0bc08ed2585cbe28db9718330b01253efd63436246e86f76b354a689"
+    },
+    "regiao": {
+      "path": "data/gold/mortalidade/mortalidade_regiao.csv",
+      "rows": 5,
+      "bytes": 783,
+      "sha256": "c859dfcf71ddbdcc515a5c1127e5e084cd14128bde8cb80b83df34483c563663"
+    },
+    "estado": {
+      "path": "data/gold/mortalidade/mortalidade_estado.csv",
+      "rows": 27,
+      "bytes": 2482,
+      "sha256": "05d9ca2a824c234f0b6781dd5859376295c9872bf5d7925cf9de8af99c611a73"
+    },
+    "municipio": {
+      "path": "data/gold/mortalidade/mortalidade_municipio.csv",
+      "rows": 5570,
+      "bytes": 361125,
+      "sha256": "6153af68129936d0eccd00e37dc631032164fdbd581a70e7e0361cf8060cf20f"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# Planned stack; install and validate each group in its corresponding phase.
+# Airflow requires a supported Linux environment and its constraints file.
+pydantic>=2.7
+pydantic-settings>=2.3
+tenacity>=8.3
+pytest-cov>=5.0

@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: analytics
+    schema: analytics
+    tables:
+      - name: dim_municipio
+      - name: morbidades
+      - name: mortalidade
+      - name: nascimentos
