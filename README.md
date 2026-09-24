@@ -41,6 +41,85 @@ Serviços locais:
 O serviço `pipeline-init` reconstrói os indicadores de nascimento, publica os
 Gold no PostgreSQL e executa as 39 ações dbt antes de liberar API e dashboard.
 
+## Deploy em produção
+
+Em produção, os três serviços devem ser hospedados separadamente e conectados
+por configurações externas:
+
+```text
+Streamlit Cloud
+    ↓ HTTPS
+FastAPI
+    ↓ conexão PostgreSQL com TLS
+PostgreSQL gerenciado
+```
+
+O endereço `127.0.0.1` sempre representa a própria máquina ou o próprio
+container. Portanto, ele não conecta o Streamlit Cloud a uma API hospedada em
+Render, Railway, Fly.io ou outro serviço.
+
+### Streamlit Cloud
+
+Configure em **App settings → Secrets**:
+
+```toml
+NASCENTE_API_URL = "https://URL-PUBLICA-DA-API"
+```
+
+Não inclua barra no final. O código também normaliza uma barra final caso ela
+seja informada. O arquivo de entrada é `dashboard/app.py`, e
+`dashboard/requirements.txt` contém somente as dependências necessárias ao
+painel. O `secrets.toml` local é ignorado pelo Git.
+
+A configuração por secrets segue o mecanismo recomendado na
+[documentação oficial do Streamlit](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/secrets-management).
+
+### FastAPI
+
+No host da API, configure obrigatoriamente:
+
+```text
+NASCENTE_POSTGRES_DSN=postgresql://USUARIO:SENHA@HOST:5432/nascente_brasil?sslmode=require
+```
+
+Use os valores reais fornecidos pelo PostgreSQL gerenciado e ajuste
+`sslmode` conforme a exigência do provedor. Não grave o DSN no repositório.
+
+Com o pacote instalado por `python -m pip install -e ".[api]"`, o comando de
+inicialização é:
+
+```sh
+uvicorn nascente_brasil.api.app:app --host 0.0.0.0 --port $PORT
+```
+
+O Dockerfile da API usa `8000` quando `$PORT` não é definido, preservando a
+execução local. Antes de apontar o Streamlit para a API, confirme:
+
+- `GET /health`: processo FastAPI ativo, sem consultar o banco;
+- `GET /ready`: PostgreSQL acessível e marts analíticos disponíveis;
+- `GET /docs`: documentação OpenAPI interativa.
+
+Quando o banco ou as relações mínimas não estão disponíveis, `/ready` retorna
+HTTP 503 sem expor DSN ou detalhes internos. São verificadas as relações
+`dbt_marts.mart_nascimentos_territoriais`,
+`dbt_marts.mart_mortalidade_territorial`,
+`dbt_marts.mart_morbidades_territoriais` e `analytics.dim_municipio`.
+
+### Desenvolvimento local
+
+O Docker Compose configura automaticamente `dashboard → api → postgres` pelos
+nomes internos dos serviços. Para executar o dashboard diretamente fora do
+Docker e permitir o fallback para `http://127.0.0.1:8000`, defina explicitamente:
+
+```powershell
+$env:NASCENTE_ENV = "local"
+streamlit run dashboard/app.py
+```
+
+Fora dos ambientes locais explícitos (`local`, `development`, `dev` ou
+`test`), `NASCENTE_API_URL` e `NASCENTE_POSTGRES_DSN` não possuem fallback
+silencioso.
+
 ## Dashboard analítico
 
 O dashboard Streamlit consome exclusivamente a API FastAPI e apresenta:

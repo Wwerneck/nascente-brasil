@@ -3,12 +3,14 @@
 from __future__ import annotations
 
 from contextlib import contextmanager
-import os
 from typing import Annotated, Literal
 
 from fastapi import FastAPI, HTTPException, Query
+from fastapi.responses import JSONResponse
 import psycopg
 from psycopg.rows import dict_row
+
+from nascente_brasil.config import ConfigurationError, get_postgres_dsn
 
 PublicLevel = Literal["brasil", "regiao", "estado"]
 Limit = Annotated[int, Query(ge=1, le=500)]
@@ -20,21 +22,38 @@ app = FastAPI(
     description="Consulta aos marts validados de saude materno-infantil. Medidas observadas nao substituem estatisticas oficiais corrigidas.",
 )
 
+REQUIRED_RELATIONS = (
+    "dbt_marts.mart_nascimentos_territoriais",
+    "dbt_marts.mart_mortalidade_territorial",
+    "dbt_marts.mart_morbidades_territoriais",
+    "analytics.dim_municipio",
+)
 
-def _dsn() -> str:
-    return os.environ.get(
-        "NASCENTE_POSTGRES_DSN",
-        "postgresql://nascente@127.0.0.1:55432/nascente_brasil",
-    )
+
+class DatabaseUnavailable(RuntimeError):
+    """Internal signal for unavailable analytical storage."""
+
+
+@app.exception_handler(DatabaseUnavailable)
+async def database_unavailable_handler(_request, _exc) -> JSONResponse:
+    return JSONResponse(status_code=503, content={"detail": "Analytical database unavailable"})
 
 
 @contextmanager
 def _connection():
     try:
-        with psycopg.connect(_dsn(), row_factory=dict_row, connect_timeout=5) as connection:
+        with psycopg.connect(get_postgres_dsn(), row_factory=dict_row, connect_timeout=5) as connection:
             yield connection
-    except psycopg.Error as exc:
-        raise HTTPException(status_code=503, detail="Analytical database unavailable") from exc
+    except (psycopg.Error, ConfigurationError) as exc:
+        raise DatabaseUnavailable from exc
+
+
+def _database_ready() -> None:
+    with _connection() as connection, connection.cursor() as cursor:
+        for relation in REQUIRED_RELATIONS:
+            cursor.execute("SELECT to_regclass(%s) AS relation", (relation,))
+            if cursor.fetchone()["relation"] is None:
+                raise DatabaseUnavailable
 
 
 def _page(query: str, count_query: str, params: dict, limit: int, offset: int) -> dict:
@@ -48,10 +67,19 @@ def _page(query: str, count_query: str, params: dict, limit: int, offset: int) -
 
 @app.get("/health")
 def health() -> dict:
-    with _connection() as connection, connection.cursor() as cursor:
-        cursor.execute("SELECT 1 AS ok")
-        cursor.fetchone()
-    return {"status": "ok", "database": "ok"}
+    return {"status": "ok"}
+
+
+@app.get("/ready")
+def readiness() -> JSONResponse:
+    try:
+        _database_ready()
+    except DatabaseUnavailable:
+        return JSONResponse(
+            status_code=503,
+            content={"status": "unavailable", "database": "unavailable"},
+        )
+    return JSONResponse(status_code=200, content={"status": "ok", "database": "ok"})
 
 
 @app.get("/api/v1/mortalidade")

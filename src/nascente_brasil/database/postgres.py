@@ -5,13 +5,12 @@ from __future__ import annotations
 import csv
 from datetime import datetime, timezone
 import json
-import os
 from pathlib import Path
 
 import psycopg
 from psycopg import sql
 
-from nascente_brasil.config import Settings, get_settings
+from nascente_brasil.config import Settings, get_postgres_dsn, get_settings
 from nascente_brasil.ingestion.sinasc import sha256_file
 from nascente_brasil.transformation.sinasc_pipeline import _write_json_atomic
 
@@ -21,7 +20,7 @@ LEVELS = ("brasil", "regiao", "estado", "municipio")
 
 
 def dsn() -> str:
-    return os.environ.get("NASCENTE_POSTGRES_DSN", "postgresql://nascente@127.0.0.1:55432/nascente_brasil")
+    return get_postgres_dsn()
 
 
 DDL = """

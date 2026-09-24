@@ -8,7 +8,9 @@ from nascente_brasil.api.app import app
 def main() -> None:
     with TestClient(app) as client:
         health = client.get("/health")
-        assert health.status_code == 200 and health.json()["database"] == "ok"
+        assert health.status_code == 200 and health.json() == {"status": "ok"}
+        ready = client.get("/ready")
+        assert ready.status_code == 200 and ready.json()["database"] == "ok"
 
         mortality = client.get("/api/v1/mortalidade", params={"nivel": "brasil"})
         assert mortality.status_code == 200

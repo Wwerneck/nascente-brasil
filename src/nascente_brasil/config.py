@@ -9,8 +9,33 @@ from pathlib import Path
 from dotenv import dotenv_values
 
 
+LOCAL_ENVIRONMENTS = {"local", "development", "dev", "test"}
+LOCAL_POSTGRES_DSN = "postgresql://nascente@127.0.0.1:55432/nascente_brasil"
+
+
+class ConfigurationError(RuntimeError):
+    """Raised when a required runtime setting is missing or invalid."""
+
+
 def _project_root() -> Path:
     return Path(__file__).resolve().parents[2]
+
+
+def get_postgres_dsn(environ: dict[str, str] | None = None) -> str:
+    """Return a PostgreSQL DSN, allowing a fallback only in explicit local mode."""
+    values = os.environ if environ is None else environ
+    file_values = dotenv_values(_project_root() / ".env") if environ is None else {}
+    configured = values.get("NASCENTE_POSTGRES_DSN") or file_values.get("NASCENTE_POSTGRES_DSN")
+    if configured and configured.strip():
+        return configured.strip()
+
+    environment = values.get("NASCENTE_ENV") or file_values.get("NASCENTE_ENV")
+    if environment and environment.strip().lower() in LOCAL_ENVIRONMENTS:
+        return LOCAL_POSTGRES_DSN
+
+    raise ConfigurationError(
+        "NASCENTE_POSTGRES_DSN is required outside an explicit local environment."
+    )
 
 
 @dataclass(frozen=True)

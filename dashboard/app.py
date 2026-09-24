@@ -3,16 +3,16 @@
 from __future__ import annotations
 
 import json
-import os
+from datetime import timezone
 from pathlib import Path
 
 import pandas as pd
 import plotly.express as px
-import requests
 import streamlit as st
 
+from api_client import ApiClientError, request_json
+from runtime import DashboardConfigurationError, get_api_url
 
-API = os.environ.get("NASCENTE_API_URL", "http://127.0.0.1:8000")
 GEOJSON_PATH = Path(__file__).parent / "assets" / "brazil_states.geojson"
 UF_NAMES = {
     "AC": "Acre", "AL": "Alagoas", "AM": "Amazonas", "AP": "Amapá", "BA": "Bahia",
@@ -45,11 +45,39 @@ div[data-baseweb="select"] > div { border-radius:5px; }
 """, unsafe_allow_html=True)
 
 
+def streamlit_secrets() -> dict[str, object]:
+    try:
+        return st.secrets.to_dict()
+    except FileNotFoundError:
+        return {}
+
+
+def show_unavailable(error: ApiClientError | DashboardConfigurationError) -> None:
+    st.title("Nascente Brasil temporariamente indisponível")
+    st.error("Não foi possível estabelecer comunicação com a API analítica.")
+    if isinstance(error, ApiClientError):
+        st.write(error.detail)
+        with st.expander("Detalhes técnicos"):
+            st.code(f"Endpoint: {error.base_url}{error.endpoint}")
+            if error.status_code is not None:
+                st.code(f"Status HTTP: {error.status_code}")
+            attempted = error.attempted_at.astimezone(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+            st.code(f"Horário da tentativa: {attempted}")
+    else:
+        st.write("Configure NASCENTE_API_URL com o endereço HTTPS público da API.")
+    st.caption("A configuração e os diagnósticos exibidos não incluem credenciais ou secrets.")
+
+
+try:
+    API = get_api_url(secrets=streamlit_secrets())
+except DashboardConfigurationError as configuration_error:
+    show_unavailable(configuration_error)
+    st.stop()
+
+
 @st.cache_data(ttl=300, show_spinner=False)
 def api_page(endpoint: str, params: tuple[tuple[str, str | int], ...] = ()) -> dict:
-    response = requests.get(f"{API}{endpoint}", params=dict(params), timeout=20)
-    response.raise_for_status()
-    return response.json()
+    return request_json(API, endpoint, params=dict(params))
 
 
 @st.cache_data(ttl=300, show_spinner=False)
@@ -61,6 +89,14 @@ def api_all(endpoint: str, params: tuple[tuple[str, str | int], ...]) -> pd.Data
         offset += len(payload["items"])
         if offset >= payload["pagination"]["total"] or not payload["items"]:
             return pd.DataFrame(rows)
+
+
+def api_all_or_stop(endpoint: str, params: tuple[tuple[str, str | int], ...]) -> pd.DataFrame:
+    try:
+        return api_all(endpoint, params)
+    except ApiClientError as api_error:
+        show_unavailable(api_error)
+        st.stop()
 
 
 @st.cache_resource(show_spinner=False)
@@ -86,9 +122,9 @@ def bar(data: pd.DataFrame, x: str, y: str, title: str, color: str = "#006B5E") 
 
 
 try:
-    api_page("/health")
-except requests.RequestException:
-    st.error("API analítica indisponível.")
+    api_page("/ready")
+except ApiClientError as api_error:
+    show_unavailable(api_error)
     st.stop()
 
 with st.sidebar:
@@ -98,8 +134,8 @@ with st.sidebar:
                               "Saúde materna", "Mortalidade", "Comparação e mapa", "Qualidade dos dados"])
     st.markdown('<p class="status">API e banco operacionais</p>', unsafe_allow_html=True)
 
-births_br = api_all("/api/v1/nascimentos", (("nivel", "brasil"),)).iloc[0]
-deaths_br = api_all("/api/v1/mortalidade", (("nivel", "brasil"),)).iloc[0]
+births_br = api_all_or_stop("/api/v1/nascimentos", (("nivel", "brasil"),)).iloc[0]
+deaths_br = api_all_or_stop("/api/v1/mortalidade", (("nivel", "brasil"),)).iloc[0]
 
 if page == "Visão geral":
     st.title("Visão geral")
@@ -108,7 +144,7 @@ if page == "Visão geral":
     cols[1].metric("Cesáreas", pct(births_br.percentual_cesareas))
     cols[2].metric("Prematuridade", pct(births_br.percentual_prematuridade))
     cols[3].metric("Mortalidade infantil", f"{float(deaths_br.taxa_observada_mortalidade_infantil_por_mil_nv):.2f} por mil")
-    regions = api_all("/api/v1/nascimentos", (("nivel", "regiao"),))
+    regions = api_all_or_stop("/api/v1/nascimentos", (("nivel", "regiao"),))
     left, right = st.columns(2)
     with left: bar(regions, "territorio", "nascidos_vivos", "Nascidos vivos por região")
     with right: bar(regions, "territorio", "percentual_prematuridade", "Prematuridade por região", "#C94B40")
@@ -117,7 +153,7 @@ if page == "Visão geral":
 elif page == "Nascimentos":
     st.title("Nascimentos")
     level = st.segmented_control("Nível", ["regiao", "estado"], default="regiao")
-    data = api_all("/api/v1/nascimentos", (("nivel", level),))
+    data = api_all_or_stop("/api/v1/nascimentos", (("nivel", level),))
     cols = st.columns(3)
     cols[0].metric("Brasil", number(births_br.nascidos_vivos))
     cols[1].metric("Mães adolescentes", number(births_br.nascidos_vivos_maes_adolescentes))
@@ -127,7 +163,7 @@ elif page == "Nascimentos":
 
 elif page == "Parto e pré-natal":
     st.title("Parto e pré-natal")
-    data = api_all("/api/v1/nascimentos", (("nivel", "regiao"),))
+    data = api_all_or_stop("/api/v1/nascimentos", (("nivel", "regiao"),))
     cols = st.columns(3)
     cols[0].metric("Cesáreas", pct(births_br.percentual_cesareas))
     cols[1].metric("7+ consultas", pct(births_br.percentual_prenatal_7_mais))
@@ -138,7 +174,7 @@ elif page == "Parto e pré-natal":
 
 elif page == "Recém-nascidos":
     st.title("Recém-nascidos")
-    data = api_all("/api/v1/nascimentos", (("nivel", "regiao"),))
+    data = api_all_or_stop("/api/v1/nascimentos", (("nivel", "regiao"),))
     cols = st.columns(3)
     cols[0].metric("Prematuros", pct(births_br.percentual_prematuridade))
     cols[1].metric("Baixo peso", pct(births_br.percentual_baixo_peso))
@@ -151,7 +187,7 @@ elif page == "Recém-nascidos":
 elif page == "Saúde materna":
     st.title("Morbidades maternas")
     level = st.segmented_control("Nível", ["brasil", "regiao", "estado"], default="brasil")
-    data = api_all("/api/v1/morbidades", (("nivel", level),))
+    data = api_all_or_stop("/api/v1/morbidades", (("nivel", level),))
     groups = sorted(data.grupo_morbidade.unique())
     group_labels = {
         "complicacoes_anestesicas": "Complicações anestésicas",
@@ -178,7 +214,7 @@ elif page == "Saúde materna":
 elif page == "Mortalidade":
     st.title("Mortalidade")
     level = st.segmented_control("Nível", ["regiao", "estado"], default="regiao")
-    data = api_all("/api/v1/mortalidade", (("nivel", level),))
+    data = api_all_or_stop("/api/v1/mortalidade", (("nivel", level),))
     cols = st.columns(3)
     cols[0].metric("Óbitos infantis", number(deaths_br.obitos_infantis))
     cols[1].metric("Óbitos neonatais", number(deaths_br.obitos_neonatais))
@@ -191,8 +227,8 @@ elif page == "Mortalidade":
 
 elif page == "Comparação e mapa":
     st.title("Comparação estadual")
-    births = api_all("/api/v1/nascimentos", (("nivel", "estado"),))
-    deaths = api_all("/api/v1/mortalidade", (("nivel", "estado"),))
+    births = api_all_or_stop("/api/v1/nascimentos", (("nivel", "estado"),))
+    deaths = api_all_or_stop("/api/v1/mortalidade", (("nivel", "estado"),))
     data = births.merge(deaths[["codigo_territorio", "taxa_observada_mortalidade_infantil_por_mil_nv"]], on="codigo_territorio")
     data["codigo_ibge_uf"] = data.codigo_territorio.map(UF_GEOCODES)
     metrics = {
