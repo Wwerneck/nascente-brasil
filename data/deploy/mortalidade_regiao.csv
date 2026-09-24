@@ -1,0 +1,6 @@
+ano,codigo_territorio,territorio,nascidos_vivos,obitos_nao_fetais,obitos_causa_obstetrica_cid_o,obitos_maternos_tardios_sequelas,causas_indiretas_candidatas,obitos_infantis,obitos_neonatais,obitos_neonatais_precoces,obitos_pos_neonatais,razao_observada_causa_obstetrica_por_100mil_nv,taxa_observada_mortalidade_infantil_por_mil_nv,taxa_observada_mortalidade_neonatal_por_mil_nv
+2024,1,Norte,265660,96242,178,14,0,4166,2661,2083,1505,67.0029,15.6817,10.0166
+2024,2,Nordeste,667114,394380,393,61,0,9033,6139,4638,2894,58.9105,13.5404,9.2023
+2024,3,Sudeste,904335,690127,450,114,0,10591,7109,5139,3482,49.7603,11.7114,7.861
+2024,4,Sul,336800,242720,179,37,0,3506,2449,1781,1057,53.1473,10.4097,7.2714
+2024,5,Centro-Oeste,215362,106256,126,32,0,2718,1750,1287,968,58.5061,12.6206,8.1259

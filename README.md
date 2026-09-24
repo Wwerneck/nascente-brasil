@@ -43,6 +43,8 @@ Gold no PostgreSQL e executa as 39 ações dbt antes de liberar API e dashboard.
 
 ## Deploy em produção
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Wwerneck/nascente-brasil)
+
 Em produção, os três serviços devem ser hospedados separadamente e conectados
 por configurações externas:
 
